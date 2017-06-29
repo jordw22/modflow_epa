@@ -6,7 +6,7 @@ Table of Contents
 
 [Documentation](https://github.com/jordw22/modflow_epa#documentation)
 
-[Examples](https://github.com/jordw22/modflow_epa#examples)
+[Notebooks](https://github.com/jordw22/modflow_epa#notebooks)
 
 [Installation](https://github.com/jordw22/modflow_epa#installation)
 
