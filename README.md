@@ -2,6 +2,14 @@
 
 Table of Contents
 
+[Introduction](https://github.com/jordw22/modflow_epa#introduction)
+[Documentation](https://github.com/jordw22/modflow_epa#documentation)
+[Examples](https://github.com/jordw22/modflow_epa#examples)
+[Installation](https://github.com/jordw22/modflow_epa#installation)
+[Getting Started](https://github.com/jordw22/modflow_epa#getting-started)
+[Flopy Supported Packages](https://github.com/jordw22/modflow_epa#flopy-supported-packages)
+[Floply Model Checks](https://github.com/jordw22/modflow_epa#flopy-model-checks)
+[Flopy Changes](https://github.com/jordw22/modflow_epa#flopy-changes)
 
 
 Introduction
@@ -43,11 +51,11 @@ Draw pictures/graphs and write down key information that you'll need
 *
 
 __Youtube Video Links:__
-* [Python 3 Programming Tutorial by codebasics] (https://www.youtube.com/playlist?list=PLeo1K3hjS3usILfyvQlvUBokXkHPSve6S)
-* [Python Video Notebooks (1-10) by Mark Bakker] (https://www.youtube.com/user/wdz57/videos)
-* [Python Pandas Tutorial by codebasics] (https://www.youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy)
-* [Data analysis in Python with pandas by Data School] (https://www.youtube.com/playlist?list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y)
-* [Git/Github Turtorial by codebasics] (https://www.youtube.com/playlist?list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW
+* [Python 3 Programming Tutorial by codebasics](https://www.youtube.com/playlist?list=PLeo1K3hjS3usILfyvQlvUBokXkHPSve6S)
+* [Python Video Notebooks (1-10) by Mark Bakker](https://www.youtube.com/user/wdz57/videos)
+* [Python Pandas Tutorial by codebasics](https://www.youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy)
+* [Data analysis in Python with pandas by Data School](https://www.youtube.com/playlist?list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y)
+* [Git/Github Turtorial by codebasics](https://www.youtube.com/playlist?list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW
 
 
 FloPy Supported Packages
