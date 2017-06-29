@@ -1,0 +1,14 @@
+Variable ,Value
+Initial head,10
+Hydraulic conductivity,10
+Aquifer base,-50
+Storage coefficient,0.1
+Grid spacing (uniform),100
+Pumping rate,2500
+Stress period length,365
+Time steps,20
+Time step multiplier,1.2
+SIP iteration parameters,5
+Maximum number of iterations,50
+Acceleration parameter,1
+Closure criterion,0.001
