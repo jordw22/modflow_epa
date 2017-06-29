@@ -18,7 +18,7 @@ Table of Contents
 
 [Flopy Changes](https://github.com/jordw22/modflow_epa#flopy-changes)
 
-[MODFLOW Resources]
+[MODFLOW Resources](https://github.com/jordw22/modflow_epa#modflow-resources)
 
 
 Introduction
@@ -30,7 +30,8 @@ Documentation
 Notebooks
 -----------------------------------------------
 
-[MODFLOW Problems]()
+[MODFLOW Problems](https://github.com/jordw22/modflow_epa/tree/master/Notebooks)
+[Helpful Terms and Definitions](https://github.com/jordw22/modflow_epa/blob/master/Notebooks/Terms.ipynb)
 
 Installation
 -----------------------------------------------
@@ -42,7 +43,7 @@ FloPy requires **Python** 2.7 or **Python** 3.3 (or higher)
 1. Download **Anaconda**  
 * comes with everything you need: **Jupyter Notebook**, **Modflow**, and **Flopy**
 2. Opening a notebook
-* open anaconda
+* open Anaconda
 * in Anaconda type: jupyter notebook
 * will take you to the website
 3. Create folders to hold documents/code
