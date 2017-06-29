@@ -18,6 +18,8 @@ Table of Contents
 
 [Flopy Changes](https://github.com/jordw22/modflow_epa#flopy-changes)
 
+[MODFLOW Resources]
+
 
 Introduction
 -----------------------------------------------
@@ -25,8 +27,10 @@ Introduction
 Documentation
 -----------------------------------------------
 
-Examples
+Notebooks
 -----------------------------------------------
+
+[MODFLOW Problems]()
 
 Installation
 -----------------------------------------------
@@ -60,6 +64,8 @@ Draw pictures/graphs and write down key information that you'll need
 __Youtube Video Links:__
 * [Python 3 Programming Tutorial by codebasics](https://www.youtube.com/playlist?list=PLeo1K3hjS3usILfyvQlvUBokXkHPSve6S)
 * [Python Video Notebooks (1-10) by Mark Bakker](https://www.youtube.com/user/wdz57/videos)
+* [Jupyter Notebook Tutorial by codebasics](https://www.youtube.com/playlist?list=PLeo1K3hjS3uuZPwzACannnFSn9qHn8to8)
+* [Numpy Tutorial](https://www.youtube.com/playlist?list=PLeo1K3hjS3uset9zIVzJWqplaWBiacTEU)
 * [Python Pandas Tutorial by codebasics](https://www.youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy)
 * [Data analysis in Python with pandas by Data School](https://www.youtube.com/playlist?list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y)
 * [Git/Github Turtorial by codebasics](https://www.youtube.com/playlist?list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW)
@@ -81,3 +87,11 @@ FloPy Changes
 -----------------------------------------------
 
 A summary of changes in each FloPy version is available in [docs/version_changes.md](docs/version_changes.md) on the github repo.
+
+MODFLOW Resources
+-----------------------------------------------
+
+* [MODFLOW and Related Programs](http://water.usgs.gov/ogw/modflow/)
+* [Online guide for MODFLOW-2000](http://water.usgs.gov/nrp/gwsoftware/modflow2000/Guide/index.html)
+* [Online guide for MODFLOW-2005](http://water.usgs.gov/ogw/modflow/MODFLOW-2005-Guide/)
+* [Online guide for MODFLOW-NWT](http://water.usgs.gov/ogw/modflow-nwt/MODFLOW-NWT-Guide/)
