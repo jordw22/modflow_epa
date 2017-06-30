@@ -57,6 +57,8 @@
 ## A
 -----------------------------------------------
 
+- **Anisotropy**: (of an object or substance) having a physical property that has a different value when measured in different directions.
+
 ## B
 -----------------------------------------------
 
