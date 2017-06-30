@@ -1,6 +1,6 @@
 # modflow_epa
 
-Table of Contents
+**Table of Contents**
 
 [Introduction](https://github.com/jordw22/modflow_epa#introduction)
 
@@ -31,6 +31,7 @@ Notebooks
 -----------------------------------------------
 
 [MODFLOW Problems](https://github.com/jordw22/modflow_epa/tree/master/Notebooks)
+
 [Helpful Terms and Definitions](https://github.com/jordw22/modflow_epa/blob/master/Notebooks/Terms.ipynb)
 
 Installation
@@ -69,7 +70,7 @@ __Youtube Video Links:__
 * [Numpy Tutorial](https://www.youtube.com/playlist?list=PLeo1K3hjS3uset9zIVzJWqplaWBiacTEU)
 * [Python Pandas Tutorial by codebasics](https://www.youtube.com/playlist?list=PLeo1K3hjS3uuASpe-1LjfG5f14Bnozjwy)
 * [Data analysis in Python with pandas by Data School](https://www.youtube.com/playlist?list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y)
-* [Git/Github Turtorial by codebasics](https://www.youtube.com/playlist?list=PLeo1K3hjS3usJuxZZUBdjAcilgfQHkRzW)
+* [Git/SourceTree Turtorial by Virtual Play](https://www.youtube.com/playlist?list=PLpL2ONl1hMLtlY1Y7YJNcA5zumvaITLYs)
 
 
 FloPy Supported Packages
