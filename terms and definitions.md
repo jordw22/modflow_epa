@@ -34,7 +34,7 @@
 
 - **Anisotropy**: (of an object or substance) having a physical property that has a different value when measured in different directions.
 - **Aquifer**: An underground layer of permeable rock, sediment (usually sand or gravel), or soil that yields water. The pore spaces in aquifers are filled with water and are interconnected, so that water flows through them.
-	- confined(https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), semi-confined(https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), unconfined(https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u)
+	- [confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [semi-confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [unconfined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u)
 - **Aquitard**:  a geologic formation or stratum that lies adjacent to an aquifer and that allows only a small amount of liquid to pass.
 
 ## B
