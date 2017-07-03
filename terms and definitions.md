@@ -57,7 +57,7 @@
 - **Capture zone**:
 	- [composite](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [stream](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [well](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#w)
 - **Closure criterion**:
-- **Composite** (_Capture zone_):
+- **Composite** (_See also_ Capture zone):
 - **Conductance**:
 	- [horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), [vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
 - **Confined** (_Aquifer_):
@@ -69,8 +69,26 @@
 ## D
 -----------------------------------------------
 
+- **Darcy's Law**:
+- **Density dependent flow**:
+- **Diffusion**:
+- **Discharge**:
+	[aquifer], [constant head], [drain], [evapotranspiration], [river], [storage], [well]
+- **Discretization**:
+	- [spacial horizontal], [spacial vertical], [temporal]
+- **Distorted layer**:
+- **Drain (DRN) Package** (_MODFLOW code_):
+- **Drawdown**:
+
 ## E
 -----------------------------------------------
+
+- **Evapotranspiration**:
+- **Evapotranspiration (ET) Package** (_MODFLOW code_):
+- **E**:
+- **E**:
+- **E**:
+- **E**:
 
 ## F
 -----------------------------------------------
