@@ -33,7 +33,7 @@
 -----------------------------------------------
 
 - **Anisotropy**: (of an object or substance) having a physical property that has a different value when measured in different directions.
-- **Aquifer**: An underground layer of permeable rock, sediment (usually sand or gravel), or soil that yields water. The pore spaces in aquifers are filled with water and are interconnected, so that water flows through them.
+- **Aquifer** (_See also_ Discharge): An underground layer of permeable rock, sediment (usually sand or gravel), or soil that yields water. The pore spaces in aquifers are filled with water and are interconnected, so that water flows through them.
 	- [confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [semi-confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [unconfined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u)
 - **Aquitard**:  a geologic formation or stratum that lies adjacent to an aquifer and that allows only a small amount of liquid to pass.
 
@@ -56,60 +56,84 @@
 	- [steady-state](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [transient](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t)
 - **Capture zone**:
 	- [composite](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [stream](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [well](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#w)
-- **Closure criterion**:
+- **Closure criterion** (_See also_ Head):
 - **Composite** (_See also_ Capture zone):
 - **Conductance**:
 	- [horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), [vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
-- **Confined** (_Aquifer_):
+- **Confined** (_See also_ Aquifer):
 - **Confining bed**:
 	- [horizontal flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), [veritical flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v), [vertical hydraulic conductivity](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
-- **Constant head** (_Boundary conditions_):
+- **Constant head** (_See also_ Boundary conditions, Discharge):
 - **Cross-section**:
 
 ## D
 -----------------------------------------------
 
 - **Darcy's Law**:
-- **Density dependent flow**:
+- **Density dependent flow** (_See also_ Variable density flow):
 - **Diffusion**:
 - **Discharge**:
-	[aquifer], [constant head], [drain], [evapotranspiration], [river], [storage], [well]
+	- [aquifer](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#a), [constant head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [drain](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#d), [evapotranspiration](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#e), 
+	  [river](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#r), [storage](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [well](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#w)
 - **Discretization**:
-	- [spacial horizontal], [spacial vertical], [temporal]
+	- [spacial horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [spacial vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [temporal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t)
 - **Distorted layer**:
-- **Drain (DRN) Package** (_MODFLOW code_):
+- **Drain** (_See also_ Discharge):
+- **Drain (DRN) Package** (_See also_ MODFLOW code):
 - **Drawdown**:
 
 ## E
 -----------------------------------------------
 
-- **Evapotranspiration**:
-- **Evapotranspiration (ET) Package** (_MODFLOW code_):
-- **E**:
-- **E**:
-- **E**:
-- **E**:
+- **Elevation** (_See also_ Head):
+- **Evapotranspiration** (_See also_ Discharge):
+- **Evapotranspiration (ET) Package** (_See also_ MODFLOW code):
+- **Execution time**:
 
 ## F
 -----------------------------------------------
 
+- **Final time**:
+- **Fixed nodes**:
+- **Fixed parameter**:
+- **Flooded cell** (_See also_ Node):
+- **Flowing well** (_See also_ Well):
+- **FLOWPATH**:
+- **FLOWPATH code**:
+- **FORTRAN**:
+- **Freshwater** (_See also_ Head):
+- **Fully penetrating well** (_See also_ Well):
+
+
 ## G
 -----------------------------------------------
 
-- **General head boundary** (_Boundary conditions_):
+- **General Head Boundary** (_See also_ Boundary conditions, MODLFOW code):
+- **Geographic Information System (GIS):
+- **Gradient** (_See also_ Head):
+- **Grid**:
+- **Groundwater**:
+- **Groundwater Modeling Sytem (GMS)**:
 
 ## H
 -----------------------------------------------
 
-- **Head-dependent boundary** (_Boundary conditions_):
-- **Horizontal** (_Conductance_):
-- **Horizontal flow** (_Confining bed_):
-- **Hydraulic** (_Boundary conditions_):
+- **Head**:
+	-[closure criterion](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [elevation](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#e), [freshwater](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#f), [gradient](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#g), [loss](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#l), [pressure](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
+- **Head-dependent boundary** (_See also_ Boundary conditions):
+- **Horizontal** (_See also_ Conductance):
+- **Horizontal flow** (_See also_ Confining bed):
+- **Hydraulic** (_See also_ Boundary conditions):
+- **Hydraulic conductivity (permeability)**:
 
 ## I
 -----------------------------------------------
 
-- **Impermeable** (_Boundary conditions_):
+- **Impermeable** (_See also_ Boundary conditions):
+- **Inactive nodes** (_See also_ Nodes):
+- **Initial conditions**:
+- **Intermediate (sub-level) flow system:
+- **Iteration**:
 
 ## J
 -----------------------------------------------
@@ -120,13 +144,15 @@
 ## L
 -----------------------------------------------
 
+- **Loss** (_See also_ Head):
+
 ## M
 -----------------------------------------------
 
 ## N
 -----------------------------------------------
 
-- **No-flow** (_Boundary conditions_):
+- **No-flow** (_See also_ Boundary conditions):
 
 ## O
 -----------------------------------------------
@@ -134,7 +160,8 @@
 ## P
 -----------------------------------------------
 
-- **Parameter** (_Base model_):
+- **Parameter** (_See also_ Base model):
+- **Pressure** (_See also_ Head):
 
 ## Q
 -----------------------------------------------
@@ -142,36 +169,41 @@
 ## R
 -----------------------------------------------
 
+- **River** (_See also_ Discharge):
+
 ## S
 -----------------------------------------------
 
-- **Semi-confined** (_Aquifer_):
-- **Specified flow** (_Boundary conditions_):
-- **Specified head** (_Boundary conditions_):
-- **Steady-state** (_Calibration_):
-- **Stream** (_Capture zone_):
+- **Semi-confined** (_See also_ Aquifer):
+- **Spacial horizontal** (_See also_ Discretization):
+- **Spacial vertical** (_See also_ Discretization):
+- **Specified flow** (_See also_ Boundary conditions):
+- **Specified head** (_See also_ Boundary conditions):
+- **Steady-state** (_See also_ Calibration):
+- **Storage** (_See also_ Discharge):
+- **Stream** (_See also_ Capture zone):
 
 ## T
 -----------------------------------------------
 
-- **Transient** (_Calibration_):
+- **Transient** (_See also_ Calibration):
+- **Temporal** (_See also_ Discretization):
 
 ## U
 -----------------------------------------------
 
-- **Unconfined** (_Aquifer_):
-
+- **Unconfined** (_See also_ Aquifer):
 ## V
 -----------------------------------------------
 
-- **Vertical** (_Conductance_):
-- **Vertical flow** (_Confining bed_):
-- **Vertical hydraulic conductivity** (_Confining bed_):
+- **Vertical** (_See also_ Conductance):
+- **Vertical flow** (_See also_ Confining bed):
+- **Vertical hydraulic conductivity** (_See also_ Confining bed):
 
 ## W
 -----------------------------------------------
 
-- **Well** (_Capture zone_):
+- **Well** (_See also_ Capture zone, Discharge):
 
 ## X
 -----------------------------------------------
