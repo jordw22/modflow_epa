@@ -33,8 +33,11 @@
 -----------------------------------------------
 
 - **Anisotropy**: (of an object or substance) having a physical property that has a different value when measured in different directions.
+	- [non-uniform](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n)
 - **Aquifer** (_See also_ Discharge): An underground layer of permeable rock, sediment (usually sand or gravel), or soil that yields water. The pore spaces in aquifers are filled with water and are interconnected, so that water flows through them.
-	- [confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [semi-confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [unconfined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u)
+	- [confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
+	  [semi-confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
+	  [unconfined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u)
 - **Aquitard**:  a geologic formation or stratum that lies adjacent to an aquifer and that allows only a small amount of liquid to pass.
 
 ## B
@@ -46,23 +49,35 @@
 - **Baseflow**:
 - **Best fit model**:
 - **Boundary conditions**:
-	- [constant head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [general head boundary (GHB)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#g), [head-dependent boundary (HDB)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h),[hydraulic](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), 
-	  [impermeable](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#i), [no-flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n), [specified flow (conditions)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [specified head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s)
+	- [constant head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
+	  [general head boundary (GHB)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#g), 
+	  [head-dependent boundary (HDB)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h),
+	  [hydraulic](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), 
+	  [impermeable](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#i), 
+	  [no-flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n), 
+	  [specified flow (conditions)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
+	  [specified head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s)
 
 ## C
 -----------------------------------------------
 
 - **Calibration**:
-	- [steady-state](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [transient](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t)
+	- [steady-state](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
+	  [transient](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t)
 - **Capture zone**:
-	- [composite](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [stream](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [well](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#w)
+	- [composite](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
+	  [stream](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
+	  [well](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#w)
 - **Closure criterion** (_See also_ Head):
 - **Composite** (_See also_ Capture zone):
 - **Conductance**:
-	- [horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), [vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
+	- [horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), 
+	  [vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
 - **Confined** (_See also_ Aquifer, Layer):
 - **Confining bed**:
-	- [horizontal flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), [veritical flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v), [vertical hydraulic conductivity](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
+	- [horizontal flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), 
+	  [veritical flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v), 
+	  [vertical hydraulic conductivity](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
 - **Constant head** (_See also_ Boundary conditions, Discharge):
 - **Cross-section**:
 
@@ -81,7 +96,9 @@
 	  [storage](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [well](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#w)
 - **Discretization** (_See also_ Layer):
-	- [spacial horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [spacial vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [temporal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t)
+	- [spacial horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
+	  [spacial vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
+	  [temporal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t)
 - **Distorted layer**:
 - **Drain** (_See also_ Discharge):
 - **Drain (DRN) Package** (_See also_ MODFLOW code):
@@ -124,12 +141,18 @@
 -----------------------------------------------
 
 - **Head**:
-	- [closure criterion](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [elevation](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#e), [freshwater](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#f), [gradient](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#g), [loss](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#l), [pressure](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
+	- [closure criterion](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
+	  [elevation](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#e), 
+	  [freshwater](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#f), 
+	  [gradient](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#g), 
+	  [loss](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#l), 
+	  [pressure](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
 - **Head-dependent boundary** (_See also_ Boundary conditions):
 - **Horizontal** (_See also_ Conductance):
 - **Horizontal flow** (_See also_ Confining bed):
 - **Hydraulic** (_See also_ Boundary conditions):
 - **Hydraulic conductivity (permeability)**:
+	- [permeability](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
 
 ## I
 -----------------------------------------------
@@ -150,7 +173,12 @@
 -----------------------------------------------
 
 - **Layer**:
-	- [confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [discretization](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#d), [storage](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [thickness](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t), [unconfined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u), [vertical hydraulic conductivity](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
+	- [confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
+	  [discretization](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#d), 
+	  [storage](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
+	  [thickness](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t), 
+	  [unconfined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u), 
+	  [vertical hydraulic conductivity](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
 - **Leakage**:
 - **Leaky beds**:
 - **Loss** (_See also_ Head):
@@ -159,13 +187,28 @@
 -----------------------------------------------
 
 - **MODFLOW code**:
-	- [Basic (BAS) Package], [Discretization (DIS)], [Drain (DRN) Package], [Evapotranspiration (ET)], [General Head Bounndary (GHB) Package], [Layer-Property Flow Package (LPF) Package], 
-	  [Output Control (OC) Package], [Precondition-Conjugate Gradient (PCG) Package], [Recharge (RCH) Package], [Well (WEL) Package]
+	- [Basic (BAS) Package](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#b), 
+	  [Discretization (DIS)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#d), 
+	  [Drain (DRN) Package](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#d), 
+	  [Evapotranspiration (ET)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#e), 
+	  [General Head Bounndary (GHB) Package](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#g), 
+	  [Layer-Property Flow Package (LPF) Package](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#l), 
+	  [Output Control (OC) Package](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#o), 
+	  [Precondition-Conjugate Gradient (PCG) Package](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p), 
+	  [Recharge (RCH) Package](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#r), 
+	  [River (RIV) Package](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#r)
+	  [Well (WEL) Package](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#w)
 
 ## N
 -----------------------------------------------
 
-- **No-flow** (_See also_ Boundary conditions):
+- **Nodes**
+	- [fixed](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#f), 
+	  [inactive](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#i), 	 
+ 	  [no-flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n), 
+	  [non-uniform](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n)
+- **No-flow** (_See also_ Boundary conditions, Nodes):
+- **Non-uniform** (_See also_ Anisotropy, Nodes):
 
 ## O
 -----------------------------------------------
@@ -174,25 +217,42 @@
 -----------------------------------------------
 
 - **Parameter** (_See also_ Base model):
+- **Particle Tracking (PT):
+- **Permeability** (_See also_ Hydraulic conductivity (permeability)):
 - **Pressure** (_See also_ Head):
+- **Pseudo-steady state** (_See also_ Steady-state conditions):
+- **Pumping rate** (_See also_ Well):
+- **Python**
 
 ## Q
 -----------------------------------------------
 
+- **Quasi-steady state** (_See also_ Steady-state conditions):
+
 ## R
 -----------------------------------------------
 
+- **Recharge**:
+- **Recharge (RCH) Package: (_See also_ MODFLOW code):
+- **Regional groundwater flow system**:
 - **River** (_See also_ Discharge):
+- **River (RIV) Package (_See also_ MODFLOW code):
+- **Runoff**:
 
 ## S
 -----------------------------------------------
 
 - **Semi-confined** (_See also_ Aquifer):
+- **Sink**:
+- **Source**:
 - **Spacial horizontal** (_See also_ Discretization):
 - **Spacial vertical** (_See also_ Discretization):
 - **Specified flow** (_See also_ Boundary conditions):
 - **Specified head** (_See also_ Boundary conditions):
-- **Steady-state** (_See also_ Calibration):
+- **Steady-state condiitons** (_See also_ Calibration):
+	- [bounding](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#b), 
+	  [pseudo-steady state](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p), 
+	  [quasi-steady state](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#q)
 - **Storage** (_See also_ Discharge, Layer):
 - **Stream** (_See also_ Capture zone):
 
