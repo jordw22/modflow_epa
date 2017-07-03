@@ -29,6 +29,8 @@
 [Y](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#y)
 [Z](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#z)
 
+[References](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#references)
+
 ## A
 -----------------------------------------------
 
@@ -39,18 +41,22 @@
 	- [confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
 	  [semi-confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [unconfined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u)
-- **Aquitard**: 
+- **Aquitard**: A _confining_ bed that retards but does not prevent the flow of water to or from an adjacent aquifer; 
+  a _leaky confining_ bed. It dones not readily yield water to wells or springs, but may serve as a storage unit
+  for ground water.
 
 ## B
 -----------------------------------------------
 
-- **Barriers**:
-- **Base model**:
+- **Barrier** (_See also_ Groundwater): A natural or artificial obstacle, such as a dike or fault gouge, to the lateral movement of ground water,
+  not in the sense of a confining bed. It is characterized by a marked difference in the level of the ground water on opposite sides.
+- **Base model**: 
 	- [parameters](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
-- **Baseflow**:
-- **Bed** (_See also_ Stream):
-- **Best fit model**:
-- **Boundary conditions**:
+- **Baseflow**:Sustained of fair-weather flow of a stream, whether or not affected by the works of man.
+- **Bed** (_See also_ Stream): The ground upon which any body of water rests, or the land covered by the
+  waters of a stream, lake, or ocean.
+- **Best fit model**: 
+- **Boundary conditions**: Something that serves to indicate or fix the limit of extent of anything.
 	- [constant head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
 	  [general head boundary (GHB)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#g), 
 	  [head-dependent boundary (HDB)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h),
@@ -59,25 +65,26 @@
 	  [no-flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n), 
 	  [specified flow (conditions)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [specified head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s)
-- **Bounding** (_See also_ Steady-state conditions)
 
 ## C
 -----------------------------------------------
 
-- **Calibration**:
+- **Calibration**: 
 	- [steady-state](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [transient](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t)
 - **Capture zone**:
 	- [composite](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
 	  [stream](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [well](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#w)
-- **Cells* (_See also_ Stream):
+- **Cells* (_See also_ Stream): 
 - **Closure criterion** (_See also_ Head):
 - **Composite** (_See also_ Capture zone):
 - **Conductance**:
 	- [horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), 
 	  [vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
-- **Confined** (_See also_ Aquifer, Layer):
+- **Confined aquifer** (_See also_ Aquifer): An aquifer bounded about and below by impermeable beds or beds
+  of distintly lower permeabliity than that of the aquifer itself; an aquifer containing confined ground water.
+- **Confined layer** (_See also_ Layer):
 - **Confining bed**:
 	- [horizontal flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), 
 	  [veritical flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v), 
@@ -141,6 +148,7 @@
 - **Gradient** (_See also_ Head):
 - **Grid**:
 - **Groundwater**:
+	- [barrier](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#b)
 - **Groundwater Modeling Sytem (GMS)**:
 
 ## H
@@ -266,8 +274,7 @@
 - **Specified flow** (_See also_ Boundary conditions):
 - **Specified head** (_See also_ Boundary conditions):
 - **Steady-state condiitons** (_See also_ Calibration):
-	- [bounding](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#b), 
-	  [pseudo-steady state](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p), 
+	- [pseudo-steady state](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p), 
 	  [quasi-steady state](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#q)
 - **Steady-state simulation
 	- [boundary conditions](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#b), 
