@@ -32,9 +32,10 @@
 ## A
 -----------------------------------------------
 
-- **Anisotropy**: 
+- **Anisotropy**: A medium whose physical properties vary in different directions.
 	- [non-uniform](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n)
-- **Aquifer**: 
+- **Aquifer**: A body of rock that contains sufficient saturated permeable material to conduct ground water
+  and to yield economically significant quantities of ground water to wells and springs.
 	- [confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
 	  [semi-confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [unconfined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u)
@@ -344,6 +345,13 @@
 
 ## Z
 -----------------------------------------------
+
+## References
+-----------------------------------------------
+
+Gary, Margaret et al. _Glossary of Geology_. American Geological Insitute, 1972.
+
+
 
 [Back to Top](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#terms)
 
