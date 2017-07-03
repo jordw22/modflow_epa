@@ -40,11 +40,13 @@
 ## B
 -----------------------------------------------
 
-- ****:
-- ****:
-- ****:
-- ****:
-- ****:
+- **Barriers**:
+- **Base model**:
+	- parameters
+- **Baseflow**:
+- **Best fit model**:
+- **Boundary conditions**:
+	 constant head, general head boundary (GHB), head-dependent boundary (HDB),hydraulic, impermeable, no-flow, specified flow (conditions), specified head
 
 ## C
 -----------------------------------------------
