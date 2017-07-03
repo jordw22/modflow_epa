@@ -34,7 +34,7 @@ Notebooks
 
 [Helpful Terms and Definitions](https://github.com/jordw22/modflow_epa/blob/master/Notebooks/Terms.ipynb)
 
-[Terms](https://github.com/jordw22/modflow_epa/blob/master/terms.txt)
+[Terms](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md)
 
 Installation
 -----------------------------------------------
