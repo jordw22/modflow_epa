@@ -2,8 +2,7 @@
 
 **Table of Contents**
 
-[A][1]
-[1]: (https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#a)
+[A](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#a)
 [B](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#b)
 [C](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c)
 [D](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#d)
@@ -43,22 +42,28 @@
 
 - **Barriers**:
 - **Base model**:
-	- parameters
+	- [parameters](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
 - **Baseflow**:
 - **Best fit model**:
 - **Boundary conditions**:
-	 constant head, general head boundary (GHB), head-dependent boundary (HDB),hydraulic, impermeable, no-flow, specified flow (conditions), specified head
+	- [constant head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [general head boundary (GHB)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#g), [head-dependent boundary (HDB)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h),[hydraulic](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), 
+	  [impermeable](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#i), [no-flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n), [specified flow (conditions)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [specified head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s)
 
 ## C
 -----------------------------------------------
 
 - **Calibration**:
+	- [steady-state](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [transient](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t)
 - **Capture zone**:
+	- [composite](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), [stream](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), [well](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#w)
 - **Closure criterion**:
+- **Composite** (_Capture zone_):
 - **Conductance**:
+	- [horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), [vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
 - **Confined** (_Aquifer_):
 - **Confining bed**:
-- **Constant head (_Boundary conditions_):
+	- [horizontal flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), [veritical flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v), [vertical hydraulic conductivity](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
+- **Constant head** (_Boundary conditions_):
 - **Cross-section**:
 
 ## D
@@ -73,11 +78,20 @@
 ## G
 -----------------------------------------------
 
+- **General head boundary** (_Boundary conditions_):
+
 ## H
 -----------------------------------------------
 
+- **Head-dependent boundary** (_Boundary conditions_):
+- **Horizontal** (_Conductance_):
+- **Horizontal flow** (_Confining bed_):
+- **Hydraulic** (_Boundary conditions_):
+
 ## I
 -----------------------------------------------
+
+- **Impermeable** (_Boundary conditions_):
 
 ## J
 -----------------------------------------------
@@ -93,6 +107,8 @@
 
 ## N
 -----------------------------------------------
+
+- **No-flow** (_Boundary conditions_):
 
 ## O
 -----------------------------------------------
@@ -112,9 +128,15 @@
 -----------------------------------------------
 
 - **Semi-confined** (_Aquifer_):
+- **Specified flow** (_Boundary conditions_):
+- **Specified head** (_Boundary conditions_):
+- **Steady-state** (_Calibration_):
+- **Stream** (_Capture zone_):
 
 ## T
 -----------------------------------------------
+
+- **Transient** (_Calibration_):
 
 ## U
 -----------------------------------------------
@@ -124,8 +146,14 @@
 ## V
 -----------------------------------------------
 
+- **Vertical** (_Conductance_):
+- **Vertical flow** (_Confining bed_):
+- **Vertical hydraulic conductivity** (_Confining bed_):
+
 ## W
 -----------------------------------------------
+
+- **Well** (_Capture zone_):
 
 ## X
 -----------------------------------------------
