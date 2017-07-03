@@ -2,7 +2,8 @@
 
 **Table of Contents**
 
-[A](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#a)
+[A][1]
+[1]: (https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#a)
 [B](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#b)
 [C](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c)
 [D](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#d)
@@ -51,12 +52,14 @@
 ## C
 -----------------------------------------------
 
-- ****:
-- ****:
-- ****:
-- ****:
-- ****:
-- ****:
+- **Calibration**:
+- **Capture zone**:
+- **Closure criterion**:
+- **Conductance**:
+- **Confined** (_Aquifer_):
+- **Confining bed**:
+- **Constant head (_Boundary conditions_):
+- **Cross-section**:
 
 ## D
 -----------------------------------------------
@@ -97,6 +100,8 @@
 ## P
 -----------------------------------------------
 
+- **Parameter** (_Base model_):
+
 ## Q
 -----------------------------------------------
 
@@ -106,11 +111,15 @@
 ## S
 -----------------------------------------------
 
+- **Semi-confined** (_Aquifer_):
+
 ## T
 -----------------------------------------------
 
 ## U
 -----------------------------------------------
+
+- **Unconfined** (_Aquifer_):
 
 ## V
 -----------------------------------------------
@@ -126,6 +135,8 @@
 
 ## Z
 -----------------------------------------------
+
+[Back to Top](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#terms)
 
 
 
