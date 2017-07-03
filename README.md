@@ -44,14 +44,14 @@ Installation
 FloPy requires **Python** 2.7 or **Python** 3.3 (or higher)
 
 1. Download **Anaconda**  
-* comes with everything you need: **Jupyter Notebook**, **Modflow**, and **Flopy**
+	* comes with everything you need: **Jupyter Notebook**, **Modflow**, and **Flopy**
 2. Opening a notebook
-* open Anaconda
-* in Anaconda type: jupyter notebook
-* will take you to the website
+	* open Anaconda
+	* in Anaconda type: jupyter notebook
+	* will take you to the website
 3. Create folders to hold documents/code
-* make sure the folders have a good structure and have a clean/simple path
-* get used to making folders this way as it is a good habit to get into and will benefit yourself and others
+	* make sure the folders have a good structure and have a clean/simple path
+	* get used to making folders this way as it is a good habit to get into and will benefit yourself and others
 
 Getting Started
 -----------------------------------------------
