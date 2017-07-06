@@ -41,6 +41,7 @@
 	- [confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
 	  [semi-confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [unconfined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u)
+- **Aquifer discharge**: This is when water leaves an aquifer; this water usually finds its way into river systems naturally (Price).
 - **Aquitard**: A _confining_ bed that retards but does not prevent the flow of water to or from an adjacent aquifer; 
   a _leaky confining_ bed. It dones not readily yield water to wells or springs, but may serve as a storage unit
   for ground water.
@@ -52,7 +53,8 @@
   not in the sense of a confining bed. It is characterized by a marked difference in the level of the ground water on opposite sides.
 - **Base model**: 
 	- [parameters](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
-- **Baseflow**:Sustained of fair-weather flow of a stream, whether or not affected by the works of man.
+- **Baseflow**: Water which sustains the river throughout dry weather; can be provided by groundwater discharge from an aquifer, from surface-water storage, 
+  or from the melting of glacier ice or snow (Price).
 - **Bed** (_See also_ Stream): The ground upon which any body of water rests, or the land covered by the
   waters of a stream, lake, or ocean.
 - **Best fit model**: 
@@ -84,21 +86,25 @@
 	  [vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
 - **Confined aquifer** (_See also_ Aquifer): An aquifer bounded about and below by impermeable beds or beds
   of distintly lower permeabliity than that of the aquifer itself; an aquifer containing confined ground water.
-- **Confined layer** (_See also_ Layer):
+- **Confined layer** (_See also_ Layer): layers of low water permeability (Price).
 - **Confining bed**:
 	- [horizontal flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), 
 	  [veritical flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v), 
 	  [vertical hydraulic conductivity](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
-- **Constant head** (_See also_ Boundary conditions, Discharge):
+- **Constant head boundary** (_See also_ Boundary conditions):
+- **Constant head discharge** (_See also_ Discharge):
 - **Cross-section**:
 
 ## D
 -----------------------------------------------
 
-- **Darcy's Law**:
+- **Darcy's Law**: States that a fluid will frol through a porous medium at a rate which is proportional to the 
+  product of the cross-sectional area through which flow can occur, the hydraulic gradient and the hydraulic conductivity (Price).
+  _Equation_: **Q = KA (h/l)**
 - **Density dependent flow** (_See also_ Variable density flow):
-- **Diffusion**:
-- **Discharge**:
+- **Diffusion**: Occurs because a solute tends to move away from regions of greater concentration toweards regions of lower
+  concentration (Price).
+- **Discharge**: The rate of flow at a given moment in time, expresssed as volume per unit of time
 	- [aquifer](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#a), 
 	  [constant head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
 	  [drain](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#d), 
@@ -106,6 +112,8 @@
 	  [river](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#r), 
 	  [storage](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [well](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#w)
+- **Discharge area**: An area in which subsurface water is discharged to the land surface, to bodies or surface water,
+  or to the atmosphere.
 - **Discretization** (_See also_ Layer):
 	- [spacial horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [spacial vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
@@ -167,7 +175,9 @@
 - **High-capacity** (_See also_ Well):
 - **Horizontal** (_See also_ Conductance):
 - **Horizontal flow** (_See also_ Confining bed):
-- **Hydraulic** (_See also_ Boundary conditions):
+- **Hydraulic boundary** (_See also_ Boundary conditions): These are limits to the aquifer, because they prevent a cone of depression
+  expanding beyond them. They do this either becasue they constitute an impermeable barrier or becuase they provide a source of
+  effectively unlnimited recharge (Price).
 - **Hydraulic conductivity (permeability)**:
 	- [permeability](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
 
@@ -254,11 +264,14 @@
 -----------------------------------------------
 
 - **Recharge**:
-- **Recharge (RCH) Package: (_See also_ MODFLOW code):
+- **Recharge (RCH) Package** (_See also_ MODFLOW code):
 - **Regional groundwater flow system**:
 - **Resistance**:
-- **River** (_See also_ Discharge):
-- **River (RIV) Package (_See also_ MODFLOW code):
+- **River**:
+- **River discharge** (_See also_ Discharge): The volume of water flowing past a given
+  point in a unit of time; it is therefore the cross-sectional area of the flow section 
+  multiplied by he speed with which the water is flowing (Price).
+- **River (RIV) Package** (_See also_ MODFLOW code):
 - **Runoff**:
 
 ## S
@@ -280,12 +293,13 @@
 	- [boundary conditions](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#b), 
 	  [starting heads](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s)
 - **Step drawdown test** (_See also_ Well):
-- **Storage** (_See also_ Discharge, Layer):
+- **Storage** (_See also_ Layer):
 	- [specific storage](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [specific yield](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [storage coefficient](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [storativity](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s)
 - **Storage coefficient** (_See also_ Storage):
+- **Storage discharge** (_See also_ Discharge):
 - **Storativity** (_See also_ Storage):
 - **Stream** (_See also_ Capture zone):
 	- [bed](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#b),
@@ -332,7 +346,7 @@
 
 - **Water budget**:
 - **Water table**:
-- **Well** (_See also_ Capture zone, Discharge):
+- **Well** (_See also_ Capture zone):
 	- [head-specified](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h),
 	  [high-capacity](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), 
 	  [multi-layer](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#m), 
@@ -341,6 +355,7 @@
 	  [node](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n), 
 	  [pumping](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p), 
 	  [step drawdown test](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s)
+- **Well discharge** (_See also_ Discharge):
 - **Well (WEL) Package**:
 - **Workflow**:
 
@@ -357,7 +372,7 @@
 -----------------------------------------------
 
 Gary, Margaret et al. _Glossary of Geology_. American Geological Insitute, 1972.
-
+Price, Michael. _Introducing Groundwater: Second Edition_. Chapman & Hall, 1996. 
 
 
 [Back to Top](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#terms)
