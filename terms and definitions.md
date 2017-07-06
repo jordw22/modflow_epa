@@ -165,13 +165,14 @@
 ## H
 -----------------------------------------------
 
-- **Head**:
+- **Head**: The height to which water can raise itself above an arbitrary given level or datum level (Price).
 	- [closure criterion](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
 	  [elevation](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#e), 
 	  [freshwater](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#f), 
 	  [gradient](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#g), 
 	  [loss](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#l), 
 	  [pressure](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
+- **Head loss** (_See also_ Head): 
 - **Head-specified** (_See also_ Well):
 - **Headwater** (_See also_ Stream):
 - **Head-dependent boundary** (_See also_ Boundary conditions):
