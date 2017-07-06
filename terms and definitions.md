@@ -100,6 +100,7 @@
 
 - **Darcy's Law**: States that a fluid will frol through a porous medium at a rate which is proportional to the 
   product of the cross-sectional area through which flow can occur, the hydraulic gradient and the hydraulic conductivity (Price).
+  
   _Equation_: **Q = KA (h/l)**
 - **Density dependent flow** (_See also_ Variable density flow):
 - **Diffusion**: Occurs because a solute tends to move away from regions of greater concentration toweards regions of lower
@@ -119,16 +120,18 @@
 	  [spacial vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [temporal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t)
 - **Distorted layer**:
-- **Drain** (_See also_ Discharge):
+- **Drain** (_See also_ Discharge): A small, narrow, natural watercourse. A channel, conduit, or water way, either natural or artificial, 
+  for draining or carrying off excess water from an area, such as a surface ditch designed to lower the water table so that land may be farmed; 
+  a sewer or trench.
 - **Drain (DRN) Package** (_See also_ MODFLOW code):
-- **Drawdown**:
+- **Drawdown**: Is the total head loss (the distance between the pumping water level and the static or rest water level) (Price).
 
 ## E
 -----------------------------------------------
 
 - **Effluent** (_See also_ Stream):
 - **Elevation** (_See also_ Head):
-- **Evapotranspiration** (_See also_ Discharge):
+- **Evapotranspiration** (_See also_ Discharge): Is the evaporation of water from openings in the leaves and stems in a process called transpiration.
 - **Evapotranspiration (ET) Package** (_See also_ MODFLOW code):
 - **Execution time**:
 
@@ -155,7 +158,7 @@
 - **Geographic Information System (GIS):
 - **Gradient** (_See also_ Head):
 - **Grid**:
-- **Groundwater**:
+- **Groundwater**: Water in the saturated zone that is below the water table (Price).
 	- [barrier](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#b)
 - **Groundwater Modeling Sytem (GMS)**:
 
@@ -345,7 +348,7 @@
 -----------------------------------------------
 
 - **Water budget**:
-- **Water table**:
+- **Water table**: 
 - **Well** (_See also_ Capture zone):
 	- [head-specified](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h),
 	  [high-capacity](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h), 
@@ -372,6 +375,7 @@
 -----------------------------------------------
 
 Gary, Margaret et al. _Glossary of Geology_. American Geological Insitute, 1972.
+
 Price, Michael. _Introducing Groundwater: Second Edition_. Chapman & Hall, 1996. 
 
 
