@@ -4,8 +4,6 @@
 
 [Introduction](https://github.com/jordw22/modflow_epa#introduction)
 
-[Documentation](https://github.com/jordw22/modflow_epa#documentation)
-
 [Notebooks](https://github.com/jordw22/modflow_epa#notebooks)
 
 [Installation](https://github.com/jordw22/modflow_epa#installation)
@@ -24,8 +22,17 @@
 Introduction
 -----------------------------------------------
 
-Documentation
------------------------------------------------
+This Jupyter Notebook is intended to offer groundwater modeling self study in an easy to learn format.
+It provides the student with hands-on experience with the practical application of models. This manual
+is complete with problem statements, input data sets, and discussion of results. The problems are designed
+to cover modeling priciples, specifics of input/output, options available to the modeler, rules of thumb,
+and common modeling mistakes.
+
+Data set preparation time and execution time have been minimized by simplifrying the problems to small size
+and to focus only on the aspect that is under consideration. Model grids are generally smaller and more homogenous
+than would be unsed in practice, however, the intent and result of each exercise are not compromised by the simplification.
+
+This manual is developed for the U.S. Geological Survey modular groundwater model (MODFLOW).
 
 Notebooks
 -----------------------------------------------
@@ -33,8 +40,6 @@ Notebooks
 [MODFLOW Problems](https://github.com/jordw22/modflow_epa/tree/master/Notebooks)
 
 [Helpful Terms and Definitions](https://github.com/jordw22/modflow_epa/blob/master/Notebooks/Terms.ipynb)
-
-[Terms](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md)
 
 Installation
 -----------------------------------------------
@@ -45,11 +50,20 @@ FloPy requires **Python** 2.7 or **Python** 3.3 (or higher)
 
 1. Download **Anaconda**  
 	* comes with everything you need: **Jupyter Notebook**, **Modflow**, and **Flopy**
-2. Opening a notebook
+	* link to [download Anaconda](https://www.continuum.io/DOWNLOADS)
+	* follow the instructions on the website and download Anaconda according to which operating system you have
+	  (Windows, OS X, Linus)
+2. Create an account on Github
+	* Go to [Github](https://github.com/)
+	* Click on [Sign up for GitHub]
+	* Fill in the proper information
+	* Once finished click [Create an account]
+3. Opening a notebook
 	* open Anaconda
 	* in Anaconda type: jupyter notebook
 	* will take you to the website
-3. Create folders to hold documents/code
+3. Create a profile online with jupyter notebook
+4. Create folders to hold documents/code
 	* make sure the folders have a good structure and have a clean/simple path
 	* get used to making folders this way as it is a good habit to get into and will benefit yourself and others
 
