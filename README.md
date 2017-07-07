@@ -48,16 +48,16 @@ Installation
 
 FloPy requires **Python** 2.7 or **Python** 3.3 (or higher)
 
+How to create your own notebooks:
+
 1. Download **Anaconda**  
-	* comes with everything you need: **Jupyter Notebook**, **Modflow**, and **Flopy**
+	* comes with everything you need: **Jupyter Notebook**
 	* link to [download Anaconda](https://www.continuum.io/DOWNLOADS)
 	* follow the instructions on the website and download Anaconda according to which operating system you have
 	  (Windows, OS X, Linus)
-2. Create an account on Github
-	* Go to [Github](https://github.com/)
-	* Click on [Sign up for GitHub]
-	* Fill in the proper information
-	* Once finished click [Create an account]
+2. Install Flopy
+	* link to usgs
+3. Download Modflow from USGS (https://water.usgs.gov/ogw/modflow/MODFLOW.html)
 3. Opening a notebook
 	* open Anaconda
 	* in Anaconda type: jupyter notebook
@@ -66,6 +66,14 @@ FloPy requires **Python** 2.7 or **Python** 3.3 (or higher)
 4. Create folders to hold documents/code
 	* make sure the folders have a good structure and have a clean/simple path
 	* get used to making folders this way as it is a good habit to get into and will benefit yourself and others
+
+How to run my modflow_epa notebooks:
+
+1. In top right corner click the green [Clone or download] button
+2. Select [Download ZIP]
+3. Create a folder for these files and place the ZIP file in it
+4. Unzip the files
+3. Unzip the modflow executable [mf2005.exe] in a seperate folder. ***It must be in a folder on the same level as notebook or it will not run***!
 
 Getting Started
 -----------------------------------------------
