@@ -73,7 +73,7 @@ How to run my modflow_epa notebooks:
 2. Select [Download ZIP]
 3. Create a folder for these files and place the ZIP file in it
 4. Unzip the files
-3. Unzip the modflow executable [mf2005.exe] in a seperate folder. ** *It must be in a folder on the same level as notebook or it will not run* **!
+3. Unzip the modflow executable [mf2005.exe] in a seperate folder. * **It must be in a folder on the same level as notebook or it will not run!* **
 
 Getting Started
 -----------------------------------------------
