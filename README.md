@@ -41,18 +41,20 @@ This manual is developed for the U.S. Geological Survey modular groundwater mode
 Notebooks
 -----------------------------------------------
 
+[Learning the Basics](https://github.com/jordw22/modflow_epa/blob/master/Notebooks/Practice/Learning%20the%20Basics.ipynb)
+
 [MODFLOW Problems](https://github.com/jordw22/modflow_epa/tree/master/Notebooks)
 
-[Helpful Terms and Definitions](https://github.com/jordw22/modflow_epa/blob/master/Notebooks/Terms.ipynb)
-
 [MODFLOW PDF File](https://github.com/jordw22/modflow_epa/tree/master/Doc)
+
+[Helpful Terms and Definitions](https://github.com/jordw22/modflow_epa/blob/master/Notebooks/Terms.ipynb)
 
 Installation
 -----------------------------------------------
 
-**Python versions:**
+### **Python versions:**
 
-FloPy requires **Python** 2.7 or **Python** 3.3 (or higher)
+* FloPy requires **Python** 2.7 or **Python** 3.3 (or higher)
 
 ### **How to create your own notebooks:**
 
@@ -65,12 +67,16 @@ FloPy requires **Python** 2.7 or **Python** 3.3 (or higher)
 	* make sure the folders have a good structure and have a clean/simple path (you can copy my folder formatting exactly or as a reference for your own)
 	* get used to making folders this way as it is a good habit to get into and will benefit yourself and others
 2. Install Flopy from USGS: (https://water.usgs.gov/ogw/flopy/#downloads)
+	*Use the pip install -> simply copy and paste the code into Anaconda (your terminal) and run it 
+	*Flopy creates a file, then Modlflow reads those files and makes more, and then Flopy reads all the files produced by
+	 Modflow and produces the results
+	*Flopy is 
 3. Download Modflow from USGS: (https://water.usgs.gov/ogw/modflow/MODFLOW.html#downloads)
 3. Opening a notebook
 	* open Anaconda
 	* in Anaconda type: jupyter notebook
 	* will take you to the website
-3. _Optional_: Create a profile online with jupyter notebook
+3. _Optional_: Create a profile online with jupyter notebook and then select [New repository] to create your own
 
 ### **How to run my modflow_epa notebooks:**
 
@@ -90,7 +96,6 @@ Some ideas that I found very useful, and would definitely recommend for whenever
 Figure out the shortcuts(i.e. how to read code, how to save your project, how to toggle between code and markdown (text)
 Read through the entirety of each problem to understand what it is asking before you attempt to code
 Draw pictures/graphs and write down key information that you'll need
-*
 
 __Youtube Video Links:__
 * [Python 3 Programming Tutorial by codebasics](https://www.youtube.com/playlist?list=PLeo1K3hjS3usILfyvQlvUBokXkHPSve6S)
@@ -101,6 +106,8 @@ __Youtube Video Links:__
 * [Data analysis in Python with pandas by Data School](https://www.youtube.com/playlist?list=PL5-da3qGB5ICCsgW1MxlZ0Hq8LL5U3u9y)
 * [Git/SourceTree Turtorial by Virtual Play](https://www.youtube.com/playlist?list=PLpL2ONl1hMLtlY1Y7YJNcA5zumvaITLYs)
 
+I have also created a [Practice\Learning the Basics] notebook that walks through how to use Jupyter Notebook and how to
+do some of the basic coding that you will need to know for the problems.
 
 FloPy Supported Packages
 -----------------------------------------------
