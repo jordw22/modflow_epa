@@ -1,6 +1,6 @@
 # modflow_epa
 
-**Table of Contents**
+### **Table of Contents**
 
 [Introduction](https://github.com/jordw22/modflow_epa#introduction)
 
@@ -32,6 +32,10 @@ Data set preparation time and execution time have been minimized by simplifrying
 and to focus only on the aspect that is under consideration. Model grids are generally smaller and more homogenous
 than would be unsed in practice, however, the intent and result of each exercise are not compromised by the simplification.
 
+In each notebook you will notice regular text and _italic text_. The regular text is me writing. _The italic text is text
+that I have taken straight from the **EPA Manual of Instructional Problems for the U.S.G.S MODFLOW Model**_. The link to view
+the original document is located under the [Doc] folder.
+
 This manual is developed for the U.S. Geological Survey modular groundwater model (MODFLOW).
 
 Notebooks
@@ -41,6 +45,8 @@ Notebooks
 
 [Helpful Terms and Definitions](https://github.com/jordw22/modflow_epa/blob/master/Notebooks/Terms.ipynb)
 
+[MODFLOW PDF File](https://github.com/jordw22/modflow_epa/tree/master/Doc)
+
 Installation
 -----------------------------------------------
 
@@ -48,32 +54,31 @@ Installation
 
 FloPy requires **Python** 2.7 or **Python** 3.3 (or higher)
 
-How to create your own notebooks:
+### **How to create your own notebooks:**
 
 1. Download **Anaconda**  
 	* comes with **Jupyter Notebook** already installed
 	* link to download Anaconda: (https://www.continuum.io/DOWNLOADS)
 	* follow the instructions on the website and download Anaconda according to which operating system you have
 	  (Windows, OS X, Linus)
-2. Install Flopy
-	* link to usgs
-3. Download Modflow from USGS: (https://water.usgs.gov/ogw/modflow/MODFLOW.html)
+4. Create folders to hold documents/code
+	* make sure the folders have a good structure and have a clean/simple path (you can copy my folder formatting exactly or as a reference for your own)
+	* get used to making folders this way as it is a good habit to get into and will benefit yourself and others
+2. Install Flopy from USGS: (https://water.usgs.gov/ogw/flopy/#downloads)
+3. Download Modflow from USGS: (https://water.usgs.gov/ogw/modflow/MODFLOW.html#downloads)
 3. Opening a notebook
 	* open Anaconda
 	* in Anaconda type: jupyter notebook
 	* will take you to the website
-3. Create a profile online with jupyter notebook
-4. Create folders to hold documents/code
-	* make sure the folders have a good structure and have a clean/simple path (you can copy my folder formatting exactly or as a reference for your own)
-	* get used to making folders this way as it is a good habit to get into and will benefit yourself and others
+3. _Optional_: Create a profile online with jupyter notebook
 
-How to run my modflow_epa notebooks:
+### **How to run my modflow_epa notebooks:**
 
 1. In top right corner click the green [Clone or download] button
 2. Select [Download ZIP]
 3. Create a folder for these files and place the ZIP file in it
 4. Unzip the files
-3. Unzip the modflow executable [mf2005.exe] in a seperate folder. * **It must be in a folder on the same level as notebook or it will not run!* **
+3. Place the modflow executable [mf2005.exe] into a seperate folder before unziping it. **It must be in a folder on the same level as notebook or it will not run!**
 
 Getting Started
 -----------------------------------------------
