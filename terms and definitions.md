@@ -130,7 +130,6 @@
 -----------------------------------------------
 
 - **Effluent** (_See also_ Stream):
-- **Elevation** (_See also_ Head):
 - **Evapotranspiration** (_See also_ Discharge): Is the evaporation of water from openings in the leaves and stems in a process called transpiration.
 - **Evapotranspiration (ET) Package** (_See also_ MODFLOW code):
 - **Execution time**:
@@ -138,7 +137,7 @@
 ## F
 -----------------------------------------------
 
-- **Final time**:
+- **Final time step**:
 - **Fixed nodes**:
 - **Fixed parameter**:
 - **Flooded cell** (_See also_ Node):
@@ -154,9 +153,9 @@
 ## G
 -----------------------------------------------
 
-- **General Head Boundary** (_See also_ Boundary conditions, MODLFOW code):
+- **General Head Boundary** (_See also_ Boundary conditions):
+- **General Head Boundary (GHB) Package** (_See also_ MODLFOW code):
 - **Geographic Information System (GIS):
-- **Gradient** (_See also_ Head):
 - **Grid**:
 - **Groundwater**: Water in the saturated zone that is below the water table (Price).
 	- [barrier](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#b)
@@ -172,7 +171,10 @@
 	  [gradient](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#g), 
 	  [loss](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#l), 
 	  [pressure](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
+- **Head elevation** (_See also_ Head):
+- **Head gradient** (_See also_ Head):  
 - **Head loss** (_See also_ Head): 
+- **Head pressure** (_See also_ Head): 
 - **Head-specified** (_See also_ Well):
 - **Headwater** (_See also_ Stream):
 - **Head-dependent boundary** (_See also_ Boundary conditions):
@@ -248,15 +250,19 @@
 ## O
 -----------------------------------------------
 
+- **Observation well** (_See also_ Well):
+- **Output Control (OC) Package** (_See also_ MODFLOW):
+
 ## P
 -----------------------------------------------
 
 - **Parameter** (_See also_ Base model):
 - **Particle Tracking (PT):
 - **Permeability** (_See also_ Hydraulic conductivity (permeability)):
-- **Pressure** (_See also_ Head):
+- **Potentiometric surface**: 
 - **Pseudo-steady state** (_See also_ Steady-state conditions):
 - **Pumping rate** (_See also_ Well):
+- **Pumping well** (_See also_ Well):
 - **Python**
 
 ## Q
@@ -267,6 +273,7 @@
 ## R
 -----------------------------------------------
 
+- **Radial Flow**:
 - **Recharge**:
 - **Recharge (RCH) Package** (_See also_ MODFLOW code):
 - **Regional groundwater flow system**:
@@ -320,6 +327,8 @@
 
 - **Target**:
 - **Tensor**:
+- **Theis solution**: Predicts drawdown in a confined aquifer at any distance from a well at any time since 
+  the start of pumping given the aquifer properties, transmissivity and storage coefficient.
 - **Thickness** (_See also_ Layer):
 - **Time step**:
 - **Time step multiplier**:
@@ -357,6 +366,7 @@
 	  [multi-node](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#m), 
 	  [nested](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n), 
 	  [node](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n), 
+	  [observation](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#o), 
 	  [pumping](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p), 
 	  [step drawdown test](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s)
 - **Well discharge** (_See also_ Discharge):
