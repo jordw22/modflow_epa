@@ -1,0 +1,138 @@
+1                    U.S. GEOLOGICAL SURVEY MODULAR FINITE-DIFFERENCE GROUND-WATER MODEL
+0DRAIN PROBLEM  COARSE GRID                                                      1/21/91  PFA                                    
+    1 LAYERS         1 ROWS        11 COLUMNS
+   1 STRESS PERIOD(S) IN SIMULATION
+ MODEL TIME UNIT IS DAYS
+0I/O UNITS:
+ ELEMENT OF IUNIT:  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+         I/O UNIT: 11  0 13  0  0  0  0  0 19  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0
+0BAS1 -- BASIC MODEL PACKAGE, VERSION 1, 9/1/87 INPUT READ FROM UNIT  1
+ ARRAYS RHS AND BUFF WILL SHARE MEMORY.
+ START HEAD WILL NOT BE SAVED -- DRAWDOWN CANNOT BE CALCULATED
+      104 ELEMENTS IN X ARRAY ARE USED BY BAS
+      104 ELEMENTS OF X ARRAY USED OUT OF   80000
+0BCF1 -- BLOCK-CENTERED FLOW PACKAGE, VERSION 1, 9/1/87 INPUT READ FROM UNIT 11
+ STEADY-STATE SIMULATION
+      LAYER  AQUIFER TYPE
+      -------------------
+         1         0
+        1 ELEMENTS IN X ARRAY ARE USED BY BCF
+      105 ELEMENTS OF X ARRAY USED OUT OF   80000
+0DRN1 -- DRAIN PACKAGE, VERSION 1, 9/1/87 INPUT READ FROM UNIT 13
+ MAXIMUM OF    1 DRAINS
+        5 ELEMENTS IN X ARRAY ARE USED FOR DRAINS
+      110 ELEMENTS OF X ARRAY USED OUT OF   80000
+0SIP1 -- STRONGLY IMPLICIT PROCEDURE SOLUTION PACKAGE, VERSION 1, 9/1/87 INPUT READ FROM UNIT 19
+ MAXIMUM OF  50 ITERATIONS ALLOWED FOR CLOSURE
+  5 ITERATION PARAMETERS
+      249 ELEMENTS IN X ARRAY ARE USED BY SIP
+      359 ELEMENTS OF X ARRAY USED OUT OF   80000
+1DRAIN PROBLEM  COARSE GRID                                                      1/21/91  PFA                                    
+0
+
+
+                                        BOUNDARY ARRAY FOR LAYER  1 WILL BE READ ON UNIT  1 USING FORMAT: (40I2)              
+                              ------------------------------------------------------------------------------------------------
+
+       1  2  3  4  5  6  7  8  9 10 11
+ ..........................................
+0  1  -1  1  1  1  1  1  1  1  1  1 -1
+0AQUIFER HEAD WILL BE SET TO  999.00     AT ALL NO-FLOW NODES (IBOUND=0).
+0
+
+
+                                          INITIAL HEAD FOR LAYER  1 WILL BE READ ON UNIT  1 USING FORMAT: (7G11.4)            
+                              ------------------------------------------------------------------------------------------------
+
+            1           2           3           4           5           6           7           8           9          10
+           11
+ .............................................................................................................................
+0  1    10.00       .0000       .0000       .0000       .0000       .0000       .0000       .0000       .0000       .0000    
+        .0000    
+0DEFAULT OUTPUT CONTROL -- THE FOLLOWING OUTPUT COMES AT THE END OF EACH STRESS PERIOD:
+ TOTAL VOLUMETRIC BUDGET
+           HEAD
+0                                                    COLUMN TO ROW ANISOTROPY =   1.000000    
+0                                                                        DELR =   120.0000    
+0                                                                        DELC =   120.0000    
+0                                                        TRANSMIS. ALONG ROWS =   100.0000     FOR LAYER  1
+0
+
+
+                                                         SOLUTION BY THE STRONGLY IMPLICIT PROCEDURE
+                                                         -------------------------------------------
+0                                               MAXIMUM ITERATIONS ALLOWED FOR CLOSURE =       50
+                                                                ACCELERATION PARAMETER =     1.0000    
+                                                     HEAD CHANGE CRITERION FOR CLOSURE =     .10000E-02
+                                                     SIP HEAD CHANGE PRINTOUT INTERVAL =        1
+0                                                    CALCULATE ITERATION PARAMETERS FROM MODEL CALCULATED WSEED
+1                                                   STRESS PERIOD NO.   1, LENGTH =   1.000000    
+                                                    ----------------------------------------------
+
+                                                    NUMBER OF TIME STEPS =     1
+
+                                                     MULTIPLIER FOR DELT =     1.000
+
+                                                  INITIAL TIME STEP SIZE =   1.000000    
+0
+
+     1 DRAINS
+0               LAYER     ROW     COL   ELEVATION   CONDUCTANCE   DRAIN NO.
+                ------------------------------------------------------------
+                   1        1       6    2.000         53.28           1
+0AVERAGE SEED =  .04078349
+ MINIMUM SEED =  .04078349
+0
+    5 ITERATION PARAMETERS CALCULATED FROM AVERAGE SEED:
+
+             .0000000E+00   .5506124E+00   .7980508E+00   .9092465E+00   .9592165E+00
+0
+     3 ITERATIONS FOR TIME STEP   1 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+    9.000     (  1,  1,  2)  -1.714     (  1,  1,  6)  -.5721E-07 (  1,  1,  4)
+0
+1                      HEAD IN LAYER  1 AT END OF TIME STEP  1 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+            1           2           3           4           5           6           7           8           9          10
+           11
+ .............................................................................................................................
+0  1    10.00       8.657       7.315       5.972       4.629       3.286       2.629       1.972       1.315       .6573    
+        .0000    
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  1 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    134.27                                              CONSTANT HEAD =    134.27    
+                             DRAINS =    .00000                                                     DRAINS =    .00000    
+0                          TOTAL IN =    134.27                                                   TOTAL IN =    134.27    
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    65.729                                              CONSTANT HEAD =    65.729    
+                             DRAINS =    68.542                                                     DRAINS =    68.542    
+0                         TOTAL OUT =    134.27                                                  TOTAL OUT =    134.27    
+0                          IN - OUT =    .00000                                                   IN - OUT =    .00000    
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  1 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         86400.0        1440.00        24.0000        1.00000        .273785E-02
+    STRESS PERIOD TIME         86400.0        1440.00        24.0000        1.00000        .273785E-02
+ TOTAL SIMULATION TIME         86400.0        1440.00        24.0000        1.00000        .273785E-02
+1

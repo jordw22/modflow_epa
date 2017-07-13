@@ -1,0 +1,2181 @@
+1                    U.S. GEOLOGICAL SURVEY MODULAR FINITE-DIFFERENCE GROUND-WATER MODEL
+0ONE DIMENSIONAL RESPONSE IN AN AQUIFER/AQUITARD SYSTEM                          1/16/91   PFA                                   
+    7 LAYERS         1 ROWS         1 COLUMNS
+   1 STRESS PERIOD(S) IN SIMULATION
+ MODEL TIME UNIT IS SECONDS
+0I/O UNITS:
+ ELEMENT OF IUNIT:  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+         I/O UNIT: 11  0  0  0  0  0  0  0 19  0  0 22  0  0  0  0  0  0  0  0  0  0  0  0
+0BAS1 -- BASIC MODEL PACKAGE, VERSION 1, 9/1/87 INPUT READ FROM UNIT  1
+ ARRAYS RHS AND BUFF WILL SHARE MEMORY.
+ START HEAD WILL NOT BE SAVED -- DRAWDOWN CANNOT BE CALCULATED
+       92 ELEMENTS IN X ARRAY ARE USED BY BAS
+       92 ELEMENTS OF X ARRAY USED OUT OF   80000
+0BCF1 -- BLOCK-CENTERED FLOW PACKAGE, VERSION 1, 9/1/87 INPUT READ FROM UNIT 11
+ TRANSIENT SIMULATION
+      LAYER  AQUIFER TYPE
+      -------------------
+         1         0
+         2         0
+         3         0
+         4         0
+         5         0
+         6         0
+         7         0
+       14 ELEMENTS IN X ARRAY ARE USED BY BCF
+      106 ELEMENTS OF X ARRAY USED OUT OF   80000
+0SIP1 -- STRONGLY IMPLICIT PROCEDURE SOLUTION PACKAGE, VERSION 1, 9/1/87 INPUT READ FROM UNIT 19
+ MAXIMUM OF  50 ITERATIONS ALLOWED FOR CLOSURE
+  5 ITERATION PARAMETERS
+      233 ELEMENTS IN X ARRAY ARE USED BY SIP
+      339 ELEMENTS OF X ARRAY USED OUT OF   80000
+1ONE DIMENSIONAL RESPONSE IN AN AQUIFER/AQUITARD SYSTEM                          1/16/91   PFA                                   
+0                                                              BOUNDARY ARRAY =             -1 FOR LAYER  1
+0                                                              BOUNDARY ARRAY =             -1 FOR LAYER  2
+0                                                              BOUNDARY ARRAY =              1 FOR LAYER  3
+0                                                              BOUNDARY ARRAY =              1 FOR LAYER  4
+0                                                              BOUNDARY ARRAY =              1 FOR LAYER  5
+0                                                              BOUNDARY ARRAY =             -1 FOR LAYER  6
+0                                                              BOUNDARY ARRAY =             -1 FOR LAYER  7
+0AQUIFER HEAD WILL BE SET TO  999.00     AT ALL NO-FLOW NODES (IBOUND=0).
+0                                                                INITIAL HEAD =   .0000000     FOR LAYER  1
+0                                                                INITIAL HEAD =   .0000000     FOR LAYER  2
+0                                                                INITIAL HEAD =   .0000000     FOR LAYER  3
+0                                                                INITIAL HEAD =   .0000000     FOR LAYER  4
+0                                                                INITIAL HEAD =   .0000000     FOR LAYER  5
+0                                                                INITIAL HEAD =  -100.0000     FOR LAYER  6
+0                                                                INITIAL HEAD =  -100.0000     FOR LAYER  7
+0HEAD PRINT FORMAT IS FORMAT NUMBER   4    DRAWDOWN PRINT FORMAT IS FORMAT NUMBER   0
+0HEADS WILL BE SAVED ON UNIT  0    DRAWDOWNS WILL BE SAVED ON UNIT  0
+0OUTPUT CONTROL IS SPECIFIED EVERY TIME STEP
+0                                                    COLUMN TO ROW ANISOTROPY =   1.000000    
+0                                                                        DELR =   100.0000    
+0                                                                        DELC =   100.0000    
+0                                                        PRIMARY STORAGE COEF =   .2500000E-05 FOR LAYER  1
+0                                                        TRANSMIS. ALONG ROWS =   .5000000E-03 FOR LAYER  1
+0                                                    VERT HYD COND /THICKNESS =   .8000000E-06 FOR LAYER  1
+0                                                        PRIMARY STORAGE COEF =   .2500000E-05 FOR LAYER  2
+0                                                        TRANSMIS. ALONG ROWS =   .5000000E-03 FOR LAYER  2
+0                                                    VERT HYD COND /THICKNESS =   .8000000E-09 FOR LAYER  2
+0                                                        PRIMARY STORAGE COEF =   .1250000E-03 FOR LAYER  3
+0                                                        TRANSMIS. ALONG ROWS =   .2500000E-06 FOR LAYER  3
+0                                                    VERT HYD COND /THICKNESS =   .2670000E-09 FOR LAYER  3
+0                                                        PRIMARY STORAGE COEF =   .2500000E-03 FOR LAYER  4
+0                                                        TRANSMIS. ALONG ROWS =   .5000000E-06 FOR LAYER  4
+0                                                    VERT HYD COND /THICKNESS =   .2670000E-09 FOR LAYER  4
+0                                                        PRIMARY STORAGE COEF =   .1250000E-03 FOR LAYER  5
+0                                                        TRANSMIS. ALONG ROWS =   .2500000E-06 FOR LAYER  5
+0                                                    VERT HYD COND /THICKNESS =   .8000000E-09 FOR LAYER  5
+0                                                        PRIMARY STORAGE COEF =   .2500000E-05 FOR LAYER  6
+0                                                        TRANSMIS. ALONG ROWS =   .5000000E-03 FOR LAYER  6
+0                                                    VERT HYD COND /THICKNESS =   .8000000E-06 FOR LAYER  6
+0                                                        PRIMARY STORAGE COEF =   .2500000E-05 FOR LAYER  7
+0                                                        TRANSMIS. ALONG ROWS =   .5000000E-03 FOR LAYER  7
+0
+
+
+                                                         SOLUTION BY THE STRONGLY IMPLICIT PROCEDURE
+                                                         -------------------------------------------
+0                                               MAXIMUM ITERATIONS ALLOWED FOR CLOSURE =       50
+                                                                ACCELERATION PARAMETER =     1.0000    
+                                                     HEAD CHANGE CRITERION FOR CLOSURE =     .10000E-01
+                                                     SIP HEAD CHANGE PRINTOUT INTERVAL =        1
+0                                                    CALCULATE ITERATION PARAMETERS FROM MODEL CALCULATED WSEED
+1                                                   STRESS PERIOD NO.   1, LENGTH =   .3153600E+08
+                                                    ----------------------------------------------
+
+                                                    NUMBER OF TIME STEPS =    25
+
+                                                     MULTIPLIER FOR DELT =     1.300
+
+                                                  INITIAL TIME STEP SIZE =   13426.42    
+0AVERAGE SEED =  .10071020
+ MINIMUM SEED =  .10071020
+0
+    5 ITERATION PARAMETERS CALCULATED FROM AVERAGE SEED:
+
+             .0000000E+00   .4366628E+00   .6826512E+00   .8212256E+00   .8992897E+00
+0
+     2 ITERATIONS FOR TIME STEP   1 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -7.712     (  5,  1,  1)  -.1243E-06 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+0OUTPUT FLAGS FOR ALL LAYERS ARE THE SAME:
+   HEAD    DRAWDOWN  HEAD  DRAWDOWN
+ PRINTOUT  PRINTOUT  SAVE    SAVE
+ ----------------------------------
+     1         0       0       0
+1                      HEAD IN LAYER  1 AT END OF TIME STEP  1 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP  1 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP  1 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1     -.00
+1                      HEAD IN LAYER  4 AT END OF TIME STEP  1 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1     -.11
+1                      HEAD IN LAYER  5 AT END OF TIME STEP  1 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -7.71
+1                      HEAD IN LAYER  6 AT END OF TIME STEP  1 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP  1 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  1 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    9.9125                                                    STORAGE =    .73828E-03
+                      CONSTANT HEAD =    .29722E-03                                          CONSTANT HEAD =    .22137E-07
+0                          TOTAL IN =    9.9128                                                   TOTAL IN =    .73830E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    9.9128                                              CONSTANT HEAD =    .73830E-03
+0                         TOTAL OUT =    9.9128                                                  TOTAL OUT =    .73830E-03
+0                          IN - OUT =   -.95367E-06                                               IN - OUT =   -.11642E-09
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  1 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         13426.4        223.774        3.72956        .155398        .425458E-03
+    STRESS PERIOD TIME         13426.4        223.774        3.72956        .155398        .425458E-03
+ TOTAL SIMULATION TIME         13426.4        223.774        3.72956        .155398        .425458E-03
+1
+     2 ITERATIONS FOR TIME STEP   2 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -8.735     (  5,  1,  1)   .2593E-07 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+0OUTPUT FLAGS FOR ALL LAYERS ARE THE SAME:
+   HEAD    DRAWDOWN  HEAD  DRAWDOWN
+ PRINTOUT  PRINTOUT  SAVE    SAVE
+ ----------------------------------
+     1         0       0       0
+1                      HEAD IN LAYER  1 AT END OF TIME STEP  2 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP  2 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP  2 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1     -.02
+1                      HEAD IN LAYER  4 AT END OF TIME STEP  2 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1     -.40
+1                      HEAD IN LAYER  5 AT END OF TIME STEP  2 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -16.45
+1                      HEAD IN LAYER  6 AT END OF TIME STEP  2 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP  2 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  2 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    21.577                                                    STORAGE =    .66830E-03
+                      CONSTANT HEAD =    .24437E-02                                          CONSTANT HEAD =    .12298E-06
+0                          TOTAL IN =    21.580                                                   TOTAL IN =    .66842E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    21.580                                              CONSTANT HEAD =    .66842E-03
+0                         TOTAL OUT =    21.580                                                  TOTAL OUT =    .66842E-03
+0                          IN - OUT =   -.19073E-05                                               IN - OUT =    .00000    
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  2 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         17454.3        290.906        4.84843        .202018        .553095E-03
+    STRESS PERIOD TIME         30880.8        514.680        8.57799        .357416        .978553E-03
+ TOTAL SIMULATION TIME         30880.8        514.680        8.57799        .357416        .978553E-03
+1
+     2 ITERATIONS FOR TIME STEP   3 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -9.537     (  5,  1,  1)  -.4689E-06 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP  3 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP  3 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP  3 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1     -.05
+1                      HEAD IN LAYER  4 AT END OF TIME STEP  3 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1     -.98
+1                      HEAD IN LAYER  5 AT END OF TIME STEP  3 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -25.98
+1                      HEAD IN LAYER  6 AT END OF TIME STEP  3 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP  3 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  3 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    35.003                                                    STORAGE =    .59170E-03
+                      CONSTANT HEAD =    .12026E-01                                          CONSTANT HEAD =    .42228E-06
+0                          TOTAL IN =    35.015                                                   TOTAL IN =    .59213E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    35.015                                              CONSTANT HEAD =    .59213E-03
+0                         TOTAL OUT =    35.015                                                  TOTAL OUT =    .59213E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =    .11642E-09
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  3 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         22690.7        378.178        6.30296        .262623        .719023E-03
+    STRESS PERIOD TIME         53571.4        892.857        14.8810        .620040        .169758E-02
+ TOTAL SIMULATION TIME         53571.4        892.857        14.8810        .620040        .169758E-02
+1
+     2 ITERATIONS FOR TIME STEP   4 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -9.955     (  5,  1,  1)   .4528E-06 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP  4 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP  4 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP  4 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1     -.14
+1                      HEAD IN LAYER  4 AT END OF TIME STEP  4 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -1.99
+1                      HEAD IN LAYER  5 AT END OF TIME STEP  4 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -35.94
+1                      HEAD IN LAYER  6 AT END OF TIME STEP  4 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP  4 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  4 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    50.087                                                    STORAGE =    .51135E-03
+                      CONSTANT HEAD =    .45660E-01                                          CONSTANT HEAD =    .11402E-05
+0                          TOTAL IN =    50.133                                                   TOTAL IN =    .51249E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    50.133                                              CONSTANT HEAD =    .51249E-03
+0                         TOTAL OUT =    50.133                                                  TOTAL OUT =    .51249E-03
+0                          IN - OUT =    .38147E-05                                               IN - OUT =    .00000    
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  4 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         29497.8        491.631        8.19385        .341410        .934730E-03
+    STRESS PERIOD TIME         83069.3        1384.49        23.0748        .961450        .263231E-02
+ TOTAL SIMULATION TIME         83069.3        1384.49        23.0748        .961450        .263231E-02
+1
+     2 ITERATIONS FOR TIME STEP   5 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -9.848     (  5,  1,  1)   .4375E-06 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP  5 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP  5 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP  5 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1     -.33
+1                      HEAD IN LAYER  4 AT END OF TIME STEP  5 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -3.59
+1                      HEAD IN LAYER  5 AT END OF TIME STEP  5 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -45.79
+1                      HEAD IN LAYER  6 AT END OF TIME STEP  5 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP  5 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  5 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    66.617                                                    STORAGE =    .43107E-03
+                      CONSTANT HEAD =    .14654                                              CONSTANT HEAD =    .26307E-05
+0                          TOTAL IN =    66.764                                                   TOTAL IN =    .43370E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    66.764                                              CONSTANT HEAD =    .43370E-03
+0                         TOTAL OUT =    66.764                                                  TOTAL OUT =    .43370E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =    .58208E-10
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  5 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         38347.2        639.120        10.6520        .443833        .121515E-02
+    STRESS PERIOD TIME         121416.        2023.61        33.7268        1.40528        .384746E-02
+ TOTAL SIMULATION TIME         121416.        2023.61        33.7268        1.40528        .384746E-02
+1
+     2 ITERATIONS FOR TIME STEP   6 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -9.155     (  5,  1,  1)   .1449E-06 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP  6 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP  6 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP  6 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1     -.67
+1                      HEAD IN LAYER  4 AT END OF TIME STEP  6 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -5.92
+1                      HEAD IN LAYER  5 AT END OF TIME STEP  6 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -54.94
+1                      HEAD IN LAYER  6 AT END OF TIME STEP  6 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP  6 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  6 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    84.318                                                    STORAGE =    .35507E-03
+                      CONSTANT HEAD =    .41488                                              CONSTANT HEAD =    .53827E-05
+0                          TOTAL IN =    84.733                                                   TOTAL IN =    .36046E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    84.733                                              CONSTANT HEAD =    .36046E-03
+0                         TOTAL OUT =    84.733                                                  TOTAL OUT =    .36046E-03
+0                          IN - OUT =    .76294E-05                                               IN - OUT =   -.29104E-10
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  6 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         49851.4        830.856        13.8476        .576983        .157969E-02
+    STRESS PERIOD TIME         171268.        2854.46        47.5744        1.98227        .542715E-02
+ TOTAL SIMULATION TIME         171268.        2854.46        47.5744        1.98227        .542715E-02
+1
+     2 ITERATIONS FOR TIME STEP   7 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -7.946     (  5,  1,  1)  -.6675E-06 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP  7 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP  7 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP  7 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -1.24
+1                      HEAD IN LAYER  4 AT END OF TIME STEP  7 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -9.10
+1                      HEAD IN LAYER  5 AT END OF TIME STEP  7 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -62.89
+1                      HEAD IN LAYER  6 AT END OF TIME STEP  7 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP  7 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  7 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    102.91                                                    STORAGE =    .28693E-03
+                      CONSTANT HEAD =    1.0599                                              CONSTANT HEAD =    .99530E-05
+0                          TOTAL IN =    103.97                                                   TOTAL IN =    .29689E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    103.97                                              CONSTANT HEAD =    .29689E-03
+0                         TOTAL OUT =    103.97                                                  TOTAL OUT =    .29689E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =   -.29104E-10
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  7 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         64806.8        1080.11        18.0019        .750078        .205360E-02
+    STRESS PERIOD TIME         236075.        3934.58        65.5763        2.73234        .748075E-02
+ TOTAL SIMULATION TIME         236075.        3934.58        65.5763        2.73234        .748075E-02
+1
+     2 ITERATIONS FOR TIME STEP   8 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -6.434     (  5,  1,  1)   .2108E-05 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP  8 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP  8 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP  8 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -2.10
+1                      HEAD IN LAYER  4 AT END OF TIME STEP  8 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -13.16
+1                      HEAD IN LAYER  5 AT END OF TIME STEP  8 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -69.32
+1                      HEAD IN LAYER  6 AT END OF TIME STEP  8 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP  8 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  8 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    122.17                                                    STORAGE =    .22861E-03
+                      CONSTANT HEAD =    2.4759                                              CONSTANT HEAD =    .16808E-04
+0                          TOTAL IN =    124.65                                                   TOTAL IN =    .24542E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    124.65                                              CONSTANT HEAD =    .24542E-03
+0                         TOTAL OUT =    124.65                                                  TOTAL OUT =    .24542E-03
+0                          IN - OUT =   -.76294E-05                                               IN - OUT =   -.87311E-10
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  8 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         84248.8        1404.15        23.4024        .975102        .266968E-02
+    STRESS PERIOD TIME         320323.        5338.72        88.9787        3.70745        .101504E-01
+ TOTAL SIMULATION TIME         320323.        5338.72        88.9787        3.70745        .101504E-01
+1
+     2 ITERATIONS FOR TIME STEP   9 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -4.909     (  5,  1,  1)  -.8727E-06 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP  9 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP  9 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP  9 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -3.26
+1                      HEAD IN LAYER  4 AT END OF TIME STEP  9 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -18.01
+1                      HEAD IN LAYER  5 AT END OF TIME STEP  9 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -74.23
+1                      HEAD IN LAYER  6 AT END OF TIME STEP  9 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP  9 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  9 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    141.89                                                    STORAGE =    .18004E-03
+                      CONSTANT HEAD =    5.3352                                              CONSTANT HEAD =    .26106E-04
+0                          TOTAL IN =    147.23                                                   TOTAL IN =    .20614E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    147.23                                              CONSTANT HEAD =    .20614E-03
+0                         TOTAL OUT =    147.23                                                  TOTAL OUT =    .20614E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =    .72760E-10
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  9 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         109523.        1825.39        30.4232        1.26763        .347059E-02
+    STRESS PERIOD TIME         429847.        7164.11        119.402        4.97508        .136210E-01
+ TOTAL SIMULATION TIME         429847.        7164.11        119.402        4.97508        .136210E-01
+1
+     2 ITERATIONS FOR TIME STEP  10 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -5.425     (  4,  1,  1)  -.1050E-05 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 10 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 10 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 10 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -4.69
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 10 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -23.43
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 10 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -77.86
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 10 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 10 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 10 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    161.77                                                    STORAGE =    .13962E-03
+                      CONSTANT HEAD =    10.677                                              CONSTANT HEAD =    .37521E-04
+0                          TOTAL IN =    172.45                                                   TOTAL IN =    .17714E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    172.45                                              CONSTANT HEAD =    .17714E-03
+0                         TOTAL OUT =    172.45                                                  TOTAL OUT =    .17714E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =    .00000    
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 10 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         142380.        2373.01        39.5501        1.64792        .451176E-02
+    STRESS PERIOD TIME         572227.        9537.12        158.952        6.62300        .181328E-01
+ TOTAL SIMULATION TIME         572227.        9537.12        158.952        6.62300        .181328E-01
+1
+     2 ITERATIONS FOR TIME STEP  11 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -5.661     (  4,  1,  1)  -.8263E-06 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 11 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 11 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 11 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -6.28
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 11 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -29.10
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 11 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -80.55
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 11 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 11 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 11 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    181.27                                                    STORAGE =    .10537E-03
+                      CONSTANT HEAD =    19.972                                              CONSTANT HEAD =    .50213E-04
+0                          TOTAL IN =    201.25                                                   TOTAL IN =    .15558E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    201.25                                              CONSTANT HEAD =    .15558E-03
+0                         TOTAL OUT =    201.25                                                  TOTAL OUT =    .15558E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =    .14552E-10
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 11 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         185095.        3084.91        51.4151        2.14230        .586529E-02
+    STRESS PERIOD TIME         757322.        12622.0        210.367        8.76530        .239981E-01
+ TOTAL SIMULATION TIME         757322.        12622.0        210.367        8.76530        .239981E-01
+1
+     2 ITERATIONS FOR TIME STEP  12 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -5.484     (  4,  1,  1)  -.7122E-06 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 12 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 12 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 12 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -7.87
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 12 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -34.58
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 12 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -82.62
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 12 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 12 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 12 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    199.57                                                    STORAGE =    .76028E-04
+                      CONSTANT HEAD =    35.130                                              CONSTANT HEAD =    .62998E-04
+0                          TOTAL IN =    234.70                                                   TOTAL IN =    .13903E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    234.70                                              CONSTANT HEAD =    .13903E-03
+0                         TOTAL OUT =    234.70                                                  TOTAL OUT =    .13903E-03
+0                          IN - OUT =    .15259E-04                                               IN - OUT =    .43656E-10
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 12 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         240623.        4010.38        66.8397        2.78499        .762488E-02
+    STRESS PERIOD TIME         997945.        16632.4        277.207        11.5503        .316230E-01
+ TOTAL SIMULATION TIME         997945.        16632.4        277.207        11.5503        .316230E-01
+1
+     2 ITERATIONS FOR TIME STEP  13 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -4.890     (  4,  1,  1)  -.1970E-05 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 13 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 13 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 13 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1    -9.33
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 13 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -39.47
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 13 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -84.25
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 13 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 13 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 13 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    215.64                                                    STORAGE =    .51389E-04
+                      CONSTANT HEAD =    58.481                                              CONSTANT HEAD =    .74649E-04
+0                          TOTAL IN =    274.13                                                   TOTAL IN =    .12604E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    274.13                                              CONSTANT HEAD =    .12604E-03
+0                         TOTAL OUT =    274.13                                                  TOTAL OUT =    .12604E-03
+0                          IN - OUT =    .30518E-04                                               IN - OUT =    .00000    
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 13 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         312810.        5213.50        86.8916        3.62048        .991234E-02
+    STRESS PERIOD TIME         .131075E+07    21845.9        364.098        15.1708        .415353E-01
+ TOTAL SIMULATION TIME         .131075E+07    21845.9        364.098        15.1708        .415353E-01
+1
+     2 ITERATIONS FOR TIME STEP  14 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -3.969     (  4,  1,  1)  -.1485E-05 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 14 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 14 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 14 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -10.53
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 14 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -43.44
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 14 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -85.49
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 14 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 14 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 14 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    228.61                                                    STORAGE =    .31890E-04
+                      CONSTANT HEAD =    92.723                                              CONSTANT HEAD =    .84205E-04
+0                          TOTAL IN =    321.34                                                   TOTAL IN =    .11609E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    321.34                                              CONSTANT HEAD =    .11609E-03
+0                         TOTAL OUT =    321.34                                                  TOTAL OUT =    .11609E-03
+0                          IN - OUT =    .30518E-04                                               IN - OUT =   -.72760E-11
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 14 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         406653.        6777.54        112.959        4.70663        .128860E-01
+    STRESS PERIOD TIME         .171741E+07    28623.4        477.057        19.8774        .544213E-01
+ TOTAL SIMULATION TIME         .171741E+07    28623.4        477.057        19.8774        .544213E-01
+1
+     2 ITERATIONS FOR TIME STEP  15 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -2.889     (  4,  1,  1)   .9807E-06 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 15 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 15 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 15 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -11.40
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 15 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -46.33
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 15 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -86.37
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 15 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 15 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 15 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    238.03                                                    STORAGE =    .17822E-04
+                      CONSTANT HEAD =    140.93                                              CONSTANT HEAD =    .91193E-04
+0                          TOTAL IN =    378.97                                                   TOTAL IN =    .10901E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    378.97                                              CONSTANT HEAD =    .10901E-03
+0                         TOTAL OUT =    378.97                                                  TOTAL OUT =    .10901E-03
+0                          IN - OUT =    .30518E-04                                               IN - OUT =   -.21828E-10
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 15 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         528648.        8810.81        146.847        6.11862        .167519E-01
+    STRESS PERIOD TIME         .224606E+07    37434.3        623.904        25.9960        .711732E-01
+ TOTAL SIMULATION TIME         .224606E+07    37434.3        623.904        25.9960        .711732E-01
+1
+     2 ITERATIONS FOR TIME STEP  16 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -1.857     (  4,  1,  1)   .1388E-05 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 16 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 16 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 16 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -11.96
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 16 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -48.18
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 16 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -86.94
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 16 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 16 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 16 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    244.09                                                    STORAGE =    .88058E-05
+                      CONSTANT HEAD =    206.70                                              CONSTANT HEAD =    .95692E-04
+0                          TOTAL IN =    450.78                                                   TOTAL IN =    .10450E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    450.78                                              CONSTANT HEAD =    .10450E-03
+0                         TOTAL OUT =    450.78                                                  TOTAL OUT =    .10450E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =   -.72760E-11
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 16 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         687243.        11454.0        190.901        7.95420        .217774E-01
+    STRESS PERIOD TIME         .293330E+07    48888.3        814.805        33.9502        .929506E-01
+ TOTAL SIMULATION TIME         .293330E+07    48888.3        814.805        33.9502        .929506E-01
+1
+     2 ITERATIONS FOR TIME STEP  17 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -1.036     (  4,  1,  1)   .8376E-06 (  5,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 17 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 17 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 17 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -12.28
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 17 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -49.22
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 17 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -87.25
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 17 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 17 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 17 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    247.46                                                    STORAGE =    .37790E-05
+                      CONSTANT HEAD =    294.43                                              CONSTANT HEAD =    .98204E-04
+0                          TOTAL IN =    541.90                                                   TOTAL IN =    .10198E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    541.90                                              CONSTANT HEAD =    .10198E-03
+0                         TOTAL OUT =    541.90                                                  TOTAL OUT =    .10198E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =   -.72760E-11
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 17 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         893416.        14890.3        248.171        10.3405        .283106E-01
+    STRESS PERIOD TIME         .382671E+07    63778.6        1062.98        44.2907        .121261    
+ TOTAL SIMULATION TIME         .382671E+07    63778.6        1062.98        44.2907        .121261    
+1
+     2 ITERATIONS FOR TIME STEP  18 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.4937     (  4,  1,  1)  -.3329E-06 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 18 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 18 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 18 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -12.43
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 18 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -49.71
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 18 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -87.40
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 18 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 18 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 18 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    249.07                                                    STORAGE =    .13847E-05
+                      CONSTANT HEAD =    409.88                                              CONSTANT HEAD =    .99401E-04
+0                          TOTAL IN =    658.95                                                   TOTAL IN =    .10079E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    658.95                                              CONSTANT HEAD =    .10079E-03
+0                         TOTAL OUT =    658.95                                                  TOTAL OUT =    .10079E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =    .72760E-11
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 18 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         .116144E+07    19357.3        322.622        13.4426        .368038E-01
+    STRESS PERIOD TIME         .498815E+07    83135.9        1385.60        57.7333        .158065    
+ TOTAL SIMULATION TIME         .498815E+07    83135.9        1385.60        57.7333        .158065    
+1
+     2 ITERATIONS FOR TIME STEP  19 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.1976     (  4,  1,  1)  -.4509E-06 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 19 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 19 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 19 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -12.49
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 19 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -49.91
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 19 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -87.46
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 19 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 19 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 19 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    249.71                                                    STORAGE =    .42638E-06
+                      CONSTANT HEAD =    560.69                                              CONSTANT HEAD =    .99881E-04
+0                          TOTAL IN =    810.40                                                   TOTAL IN =    .10031E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    810.40                                              CONSTANT HEAD =    .10031E-03
+0                         TOTAL OUT =    810.40                                                  TOTAL OUT =    .10031E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =    .14552E-10
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 19 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         .150987E+07    25164.5        419.409        17.4754        .478450E-01
+    STRESS PERIOD TIME         .649803E+07    108300.        1805.01        75.2086        .205910    
+ TOTAL SIMULATION TIME         .649803E+07    108300.        1805.01        75.2086        .205910    
+1
+     2 ITERATIONS FOR TIME STEP  20 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.6550E-01 (  4,  1,  1)   .2485E-06 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 20 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 20 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 20 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -12.50
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 20 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -49.98
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 20 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -87.48
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 20 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 20 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 20 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    249.93                                                    STORAGE =    .10872E-06
+                      CONSTANT HEAD =    757.05                                              CONSTANT HEAD =    .10004E-03
+0                          TOTAL IN =    1007.0                                                   TOTAL IN =    .10015E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    1007.0                                              CONSTANT HEAD =    .10015E-03
+0                         TOTAL OUT =    1007.0                                                  TOTAL OUT =    .10015E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =    .00000    
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 20 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         .196283E+07    32713.9        545.232        22.7180        .621985E-01
+    STRESS PERIOD TIME         .846086E+07    141014.        2350.24        97.9266        .268108    
+ TOTAL SIMULATION TIME         .846086E+07    141014.        2350.24        97.9266        .268108    
+1
+     2 ITERATIONS FOR TIME STEP  21 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.1775E-01 (  4,  1,  1)  -.5951E-07 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 21 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 21 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 21 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -12.51
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 21 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -50.00
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 21 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -87.49
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 21 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 21 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 21 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    249.98                                                    STORAGE =    .22656E-07
+                      CONSTANT HEAD =    1012.4                                              CONSTANT HEAD =    .10008E-03
+0                          TOTAL IN =    1262.4                                                   TOTAL IN =    .10011E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    1262.4                                              CONSTANT HEAD =    .10011E-03
+0                         TOTAL OUT =    1262.4                                                  TOTAL OUT =    .10011E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =    .00000    
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 21 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         .255168E+07    42528.1        708.801        29.5334        .808580E-01
+    STRESS PERIOD TIME         .110125E+08    183542.        3059.04        127.460        .348966    
+ TOTAL SIMULATION TIME         .110125E+08    183542.        3059.04        127.460        .348966    
+1
+     1 ITERATIONS FOR TIME STEP  22 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.3886E-02 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 22 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 22 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 22 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -12.51
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 22 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -50.00
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 22 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -87.49
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 22 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 22 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 22 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    250.00                                                    STORAGE =    .38161E-08
+                      CONSTANT HEAD =    1344.5                                              CONSTANT HEAD =    .10009E-03
+0                          TOTAL IN =    1594.4                                                   TOTAL IN =    .10010E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    1594.4                                              CONSTANT HEAD =    .10010E-03
+0                         TOTAL OUT =    1594.4                                                  TOTAL OUT =    .10010E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =    .00000    
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 22 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         .331719E+07    55286.5        921.441        38.3934        .105115    
+    STRESS PERIOD TIME         .143297E+08    238829.        3980.48        165.853        .454082    
+ TOTAL SIMULATION TIME         .143297E+08    238829.        3980.48        165.853        .454082    
+1
+     1 ITERATIONS FOR TIME STEP  23 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.6807E-03 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 23 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 23 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 23 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -12.51
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 23 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -50.00
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 23 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -87.49
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 23 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 23 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 23 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    250.00                                                    STORAGE =    .51307E-09
+                      CONSTANT HEAD =    1776.1                                              CONSTANT HEAD =    .10009E-03
+0                          TOTAL IN =    2026.1                                                   TOTAL IN =    .10009E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    2026.1                                              CONSTANT HEAD =    .10009E-03
+0                         TOTAL OUT =    2026.1                                                  TOTAL OUT =    .10009E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =   -.72760E-11
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 23 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         .431235E+07    71872.4        1197.87        49.9114        .136650    
+    STRESS PERIOD TIME         .186421E+08    310701.        5178.35        215.765        .590732    
+ TOTAL SIMULATION TIME         .186421E+08    310701.        5178.35        215.765        .590732    
+1
+     1 ITERATIONS FOR TIME STEP  24 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.9500E-04 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 24 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 24 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 24 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -12.51
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 24 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -50.00
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 24 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -87.49
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 24 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 24 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 24 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    250.00                                                    STORAGE =    .55713E-10
+                      CONSTANT HEAD =    2337.2                                              CONSTANT HEAD =    .10009E-03
+0                          TOTAL IN =    2587.2                                                   TOTAL IN =    .10009E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    2587.2                                              CONSTANT HEAD =    .10009E-03
+0                         TOTAL OUT =    2587.2                                                  TOTAL OUT =    .10009E-03
+0                          IN - OUT =    .24414E-03                                               IN - OUT =    .00000    
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 24 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         .560605E+07    93434.1        1557.24        64.8848        .177645    
+    STRESS PERIOD TIME         .242481E+08    404135.        6735.59        280.650        .768377    
+ TOTAL SIMULATION TIME         .242481E+08    404135.        6735.59        280.650        .768377    
+1
+     1 ITERATIONS FOR TIME STEP  25 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.1033E-04 (  4,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                      HEAD IN LAYER  1 AT END OF TIME STEP 25 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  2 AT END OF TIME STEP 25 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1      .00
+1                      HEAD IN LAYER  3 AT END OF TIME STEP 25 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -12.51
+1                      HEAD IN LAYER  4 AT END OF TIME STEP 25 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -50.00
+1                      HEAD IN LAYER  5 AT END OF TIME STEP 25 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1   -87.49
+1                      HEAD IN LAYER  6 AT END OF TIME STEP 25 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+1                      HEAD IN LAYER  7 AT END OF TIME STEP 25 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+           1
+ ................
+0  1  -100.00
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 25 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    250.00                                                    STORAGE =    .45800E-11
+                      CONSTANT HEAD =    3066.7                                              CONSTANT HEAD =    .10009E-03
+0                          TOTAL IN =    3316.7                                                   TOTAL IN =    .10009E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    3316.7                                              CONSTANT HEAD =    .10009E-03
+0                         TOTAL OUT =    3316.7                                                  TOTAL OUT =    .10009E-03
+0                          IN - OUT =    .24414E-03                                               IN - OUT =    .72760E-11
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 25 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         .728786E+07    121464.        2024.41        84.3503        .230938    
+    STRESS PERIOD TIME         .315360E+08    525600.        8760.00        365.000        .999315    
+ TOTAL SIMULATION TIME         .315360E+08    525600.        8760.00        365.000        .999315    
+1

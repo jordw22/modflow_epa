@@ -1,0 +1,8 @@
+         0         0                                                            iss,ibcfcb
+ 1                                                                              laycon
+         0  .100E+01                                                            trpy(locat,cnstnt)
+         0  .100E+03                                                            delr(locat,cnstnt)
+         0  .100E+03                                                            delc(locat,cnstnt)
+         0  .100E+00                                                            sf1(locat,cnstnt)
+         0  .100E+02                                                            hy(locat,cnstnt)
+         0 -.500E+02                                                            bot(locat,cnstnt)

@@ -1,0 +1,7 @@
+         0        31                                                            iss,ibcfcb
+ 0                                                                              laycon
+         0  .100E+01                                                            trpy
+         0  .500E+03                                                            delr(locat,cnstnt 
+         0  .500E+03                                                            delc(locat,cnstnt)
+         0  .100E-01                                                            sf1(locat,cnstnt)
+         0  .500E+03                                                            tran(locat,cnstnt)

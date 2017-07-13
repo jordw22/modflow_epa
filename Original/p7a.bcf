@@ -1,0 +1,6 @@
+         1        -1                                                            iss,ibcfcb
+ 0                                                                              laycon
+         0 0.100E+01                                                            trpy(locat,cnstnt)
+         0 0.500E+03                                                            delr(locat,cnstnt)
+         0 0.500E+03                                                            delc(locat,cnstnt)
+         0 0.500E+03                                                            tran(locat,cnstnt)

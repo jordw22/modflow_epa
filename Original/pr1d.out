@@ -1,0 +1,628 @@
+1                    U.S. GEOLOGICAL SURVEY MODULAR FINITE-DIFFERENCE GROUND-WATER MODEL
+0theis problem   pie grid                                                        1/4/91   pfa                                    
+    1 LAYERS         1 ROWS        10 COLUMNS
+   1 STRESS PERIOD(S) IN SIMULATION
+ MODEL TIME UNIT IS SECONDS
+0I/O UNITS:
+ ELEMENT OF IUNIT:  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24
+         I/O UNIT: 11 12  0  0  0  0  0  0 19  0  0 22  0  0  0  0  0  0  0  0  0  0  0  0
+0BAS1 -- BASIC MODEL PACKAGE, VERSION 1, 9/1/87 INPUT READ FROM UNIT  1
+ ARRAYS RHS AND BUFF WILL SHARE MEMORY.
+ START HEAD WILL BE SAVED
+      105 ELEMENTS IN X ARRAY ARE USED BY BAS
+      105 ELEMENTS OF X ARRAY USED OUT OF  100000
+0BCF1 -- BLOCK-CENTERED FLOW PACKAGE, VERSION 1, 9/1/87 INPUT READ FROM UNIT 11
+ TRANSIENT SIMULATION
+      LAYER  AQUIFER TYPE
+      -------------------
+         1         0
+       11 ELEMENTS IN X ARRAY ARE USED BY BCF
+      116 ELEMENTS OF X ARRAY USED OUT OF  100000
+0WEL1 -- WELL PACKAGE, VERSION 1, 9/1/87 INPUT READ FROM 12
+ MAXIMUM OF    1 WELLS
+        4 ELEMENTS IN X ARRAY ARE USED FOR WELLS
+      120 ELEMENTS OF X ARRAY USED OUT OF  100000
+0SIP1 -- STRONGLY IMPLICIT PROCEDURE SOLUTION PACKAGE, VERSION 1, 9/1/87 INPUT READ FROM UNIT 19
+ MAXIMUM OF  50 ITERATIONS ALLOWED FOR CLOSURE
+  5 ITERATION PARAMETERS
+      245 ELEMENTS IN X ARRAY ARE USED BY SIP
+      365 ELEMENTS OF X ARRAY USED OUT OF  100000
+1theis problem   pie grid                                                        1/4/91   pfa                                    
+0                                                              BOUNDARY ARRAY =              1 FOR LAYER  1
+0AQUIFER HEAD WILL BE SET TO  999.00     AT ALL NO-FLOW NODES (IBOUND=0).
+0                                                                INITIAL HEAD =   .0000000     FOR LAYER  1
+0HEAD PRINT FORMAT IS FORMAT NUMBER  10    DRAWDOWN PRINT FORMAT IS FORMAT NUMBER  10
+0HEADS WILL BE SAVED ON UNIT  0    DRAWDOWNS WILL BE SAVED ON UNIT  0
+0OUTPUT CONTROL IS SPECIFIED EVERY TIME STEP
+0                                                    COLUMN TO ROW ANISOTROPY =   1.000000    
+0
+
+
+                                                  DELR WILL BE READ ON UNIT 11 USING FORMAT: (7G11.4)            
+                              -------------------------------------------------------------------------------
+
+   20.000       30.000       30.000       40.000       60.000       80.000       100.00       150.00       200.00       300.00    
+0                                                                        DELC =   20.00000    
+0
+
+
+                                  PRIMARY STORAGE COEF FOR LAYER  1 WILL BE READ ON UNIT 11 USING FORMAT: (7G11.4)            
+                              ------------------------------------------------------------------------------------------------
+
+            1           2           3           4           5           6           7           8           9          10
+ .............................................................................................................................
+0  1   1.6500E-05  1.6350E-04  3.6000E-04  5.8875E-04  9.1650E-04  1.3747E-03  1.9635E-03  2.7818E-03  3.9270E-03  5.5635E-03
+
+0
+
+
+                                  TRANSMIS. ALONG ROWS FOR LAYER  1 WILL BE READ ON UNIT 11 USING FORMAT: (7G11.4)            
+                              ------------------------------------------------------------------------------------------------
+
+            1           2           3           4           5           6           7           8           9          10
+ .............................................................................................................................
+0  1   1.0120E-04  5.0140E-04  1.1040E-03  1.8055E-03  2.8106E-03  4.2159E-03  6.0214E-03  8.5307E-03  1.2043E-02  1.7061E-02
+
+0
+
+
+                                                         SOLUTION BY THE STRONGLY IMPLICIT PROCEDURE
+                                                         -------------------------------------------
+0                                               MAXIMUM ITERATIONS ALLOWED FOR CLOSURE =       50
+                                                                ACCELERATION PARAMETER =     1.0000    
+                                                     HEAD CHANGE CRITERION FOR CLOSURE =     .10000E-03
+                                                     SIP HEAD CHANGE PRINTOUT INTERVAL =        1
+0                                                    CALCULATE ITERATION PARAMETERS FROM MODEL CALCULATED WSEED
+1                                                   STRESS PERIOD NO.   1, LENGTH =   86400.00    
+                                                    ----------------------------------------------
+
+                                                    NUMBER OF TIME STEPS =    20
+
+                                                     MULTIPLIER FOR DELT =     1.300
+
+                                                  INITIAL TIME STEP SIZE =   137.1069    
+0             1 WELLS
+                                                LAYER    ROW    COL    STRESS RATE   WELL NO.
+                                                ---------------------------------------------
+                                                  1       1      1     -.11111E-03       1
+0AVERAGE SEED =  .04934802
+ MINIMUM SEED =  .04934802
+0
+    5 ITERATION PARAMETERS CALCULATED FROM AVERAGE SEED:
+
+             .0000000E+00   .5286783E+00   .7778559E+00   .8952987E+00   .9506520E+00
+0
+     2 ITERATIONS FOR TIME STEP   1 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.6031     (  1,  1,  1)  -.2307E-07 (  1,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+0OUTPUT FLAGS FOR ALL LAYERS ARE THE SAME:
+   HEAD    DRAWDOWN  HEAD  DRAWDOWN
+ PRINTOUT  PRINTOUT  SAVE    SAVE
+ ----------------------------------
+     0         1       0       0
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP  1 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1   .603  .075  .013  .002  .000  .000  .000  .000  .000  .000
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP  1 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    .15234E-01                                                STORAGE =    .11111E-03
+                      CONSTANT HEAD =    .00000                                              CONSTANT HEAD =    .00000    
+                              WELLS =    .00000                                                      WELLS =    .00000    
+0                          TOTAL IN =    .15234E-01                                               TOTAL IN =    .11111E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    .00000                                              CONSTANT HEAD =    .00000    
+                              WELLS =    .15234E-01                                                  WELLS =    .11111E-03
+0                         TOTAL OUT =    .15234E-01                                              TOTAL OUT =    .11111E-03
+0                          IN - OUT =    .00000                                                   IN - OUT =    .00000    
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  1 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         137.107        2.28512        .380853E-01    .158689E-02    .434466E-05
+    STRESS PERIOD TIME         137.107        2.28512        .380853E-01    .158689E-02    .434466E-05
+ TOTAL SIMULATION TIME         137.107        2.28512        .380853E-01    .158689E-02    .434466E-05
+1
+     2 ITERATIONS FOR TIME STEP   2 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.2199     (  1,  1,  1)  -.1983E-08 (  1,  1,  2)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP  2 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1   .823  .160  .039  .009  .001  .000  .000  .000  .000  .000
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  2 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         178.239        2.97065        .495108E-01    .206295E-02    .564805E-05
+    STRESS PERIOD TIME         315.346        5.25577        .875961E-01    .364984E-02    .999271E-05
+ TOTAL SIMULATION TIME         315.346        5.25577        .875961E-01    .364984E-02    .999271E-05
+1
+     2 ITERATIONS FOR TIME STEP   3 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.1096     (  1,  1,  1)   .3214E-08 (  1,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP  3 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1   .933  .238  .074  .022  .004  .000  .000  .000  .000  .000
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  3 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         231.711        3.86185        .643641E-01    .268184E-02    .734247E-05
+    STRESS PERIOD TIME         547.057        9.11761        .151960        .633167E-02    .173352E-04
+ TOTAL SIMULATION TIME         547.057        9.11761        .151960        .633167E-02    .173352E-04
+1
+     2 ITERATIONS FOR TIME STEP   4 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.7620E-01 (  1,  1,  1)   .1268E-07 (  1,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP  4 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.009  .304  .114  .041  .010  .001  .000  .000  .000  .000
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  4 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         301.224        5.02040        .836733E-01    .348639E-02    .954521E-05
+    STRESS PERIOD TIME         848.281        14.1380        .235633        .981806E-02    .268804E-04
+ TOTAL SIMULATION TIME         848.281        14.1380        .235633        .981806E-02    .268804E-04
+1
+     2 ITERATIONS FOR TIME STEP   5 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.6233E-01 (  1,  1,  1)   .5549E-08 (  1,  1,  2)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP  5 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.071  .363  .155  .066  .019  .003  .000  .000  .000  .000
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  5 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         391.591        6.52652        .108775        .453230E-02    .124088E-04
+    STRESS PERIOD TIME         1239.87        20.6645        .344409        .143504E-01    .392892E-04
+ TOTAL SIMULATION TIME         1239.87        20.6645        .344409        .143504E-01    .392892E-04
+1
+     2 ITERATIONS FOR TIME STEP   6 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.5433E-01 (  1,  1,  1)  -.6758E-08 (  1,  1,  2)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP  6 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.126  .415  .197  .094  .033  .008  .001  .000  .000  .000
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  6 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         509.068        8.48447        .141408        .589200E-02    .161314E-04
+    STRESS PERIOD TIME         1748.94        29.1490        .485817        .202424E-01    .554206E-04
+ TOTAL SIMULATION TIME         1748.94        29.1490        .485817        .202424E-01    .554206E-04
+1
+     2 ITERATIONS FOR TIME STEP   7 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.4901E-01 (  1,  1,  1)  -.7075E-08 (  1,  1,  3)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP  7 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.175  .463  .237  .126  .052  .015  .003  .000  .000  .000
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  7 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         661.789        11.0298        .183830        .765959E-02    .209708E-04
+    STRESS PERIOD TIME         2410.73        40.1788        .669647        .279020E-01    .763914E-04
+ TOTAL SIMULATION TIME         2410.73        40.1788        .669647        .279020E-01    .763914E-04
+1
+     2 ITERATIONS FOR TIME STEP   8 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.4533E-01 (  1,  1,  1)  -.4712E-08 (  1,  1,  3)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP  8 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.220  .507  .277  .159  .075  .025  .006  .001  .000  .000
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  8 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         860.325        14.3388        .238979        .995747E-02    .272621E-04
+    STRESS PERIOD TIME         3271.05        54.5176        .908626        .378594E-01    .103653E-03
+ TOTAL SIMULATION TIME         3271.05        54.5176        .908626        .378594E-01    .103653E-03
+1
+     2 ITERATIONS FOR TIME STEP   9 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.4275E-01 (  1,  1,  1)  -.3484E-08 (  1,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP  9 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.263  .549  .316  .193  .100  .040  .012  .002  .000  .000
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP  9 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         1118.42        18.6404        .310673        .129447E-01    .354407E-04
+    STRESS PERIOD TIME         4389.48        73.1580        1.21930        .508041E-01    .139094E-03
+ TOTAL SIMULATION TIME         4389.48        73.1580        1.21930        .508041E-01    .139094E-03
+1
+     2 ITERATIONS FOR TIME STEP  10 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.4095E-01 (  1,  1,  1)   .5277E-08 (  1,  1,  2)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP 10 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.304  .590  .354  .228  .129  .058  .021  .005  .001  .000
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 10 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         1453.95        24.2325        .403875        .168281E-01    .460729E-04
+    STRESS PERIOD TIME         5843.43        97.3904        1.62317        .676323E-01    .185167E-03
+ TOTAL SIMULATION TIME         5843.43        97.3904        1.62317        .676323E-01    .185167E-03
+1
+     2 ITERATIONS FOR TIME STEP  11 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.3969E-01 (  1,  1,  1)  -.4859E-08 (  1,  1,  3)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP 11 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.343  .629  .392  .263  .159  .080  .033  .009  .001  .000
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 11 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         1890.13        31.5022        .525037        .218766E-01    .598948E-04
+    STRESS PERIOD TIME         7733.56        128.893        2.14821        .895088E-01    .245062E-03
+ TOTAL SIMULATION TIME         7733.56        128.893        2.14821        .895088E-01    .245062E-03
+1
+     2 ITERATIONS FOR TIME STEP  12 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.3881E-01 (  1,  1,  1)  -.1493E-07 (  1,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP 12 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.382  .668  .429  .299  .190  .105  .048  .016  .003  .000
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 12 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         2457.18        40.9529        .682549        .284395E-01    .778632E-04
+    STRESS PERIOD TIME         10190.7        169.846        2.83076        .117948        .322925E-03
+ TOTAL SIMULATION TIME         10190.7        169.846        2.83076        .117948        .322925E-03
+1
+     2 ITERATIONS FOR TIME STEP  13 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.3818E-01 (  1,  1,  1)   .2553E-08 (  1,  1,  3)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP 13 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.420  .706  .467  .334  .223  .132  .067  .026  .007  .001
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 13 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         3194.33        53.2388        .887313        .369714E-01    .101222E-03
+    STRESS PERIOD TIME         13385.1        223.084        3.71807        .154920        .424147E-03
+ TOTAL SIMULATION TIME         13385.1        223.084        3.71807        .154920        .424147E-03
+1
+     2 ITERATIONS FOR TIME STEP  14 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.3770E-01 (  1,  1,  1)   .1689E-08 (  1,  1,  2)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP 14 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.458  .743  .504  .370  .257  .161  .090  .039  .012  .002
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 14 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         4152.63        69.2104        1.15351        .480628E-01    .131589E-03
+    STRESS PERIOD TIME         17537.7        292.295        4.87158        .202983        .555736E-03
+ TOTAL SIMULATION TIME         17537.7        292.295        4.87158        .202983        .555736E-03
+1
+     2 ITERATIONS FOR TIME STEP  15 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.3735E-01 (  1,  1,  1)  -.2261E-08 (  1,  1,  4)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP 15 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.495  .780  .540  .406  .291  .191  .115  .056  .020  .005
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 15 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         5398.41        89.9735        1.49956        .624816E-01    .171065E-03
+    STRESS PERIOD TIME         22936.1        382.268        6.37114        .265464        .726801E-03
+ TOTAL SIMULATION TIME         22936.1        382.268        6.37114        .265464        .726801E-03
+1
+     2 ITERATIONS FOR TIME STEP  16 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.3713E-01 (  1,  1,  1)  -.2982E-08 (  1,  1,  1)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP 16 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.532  .817  .577  .442  .326  .223  .142  .077  .032  .011
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 16 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         7017.94        116.966        1.94943        .812261E-01    .222385E-03
+    STRESS PERIOD TIME         29954.0        499.234        8.32057        .346690        .949186E-03
+ TOTAL SIMULATION TIME         29954.0        499.234        8.32057        .346690        .949186E-03
+1
+     2 ITERATIONS FOR TIME STEP  17 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.3716E-01 (  1,  1,  1)   .5024E-08 (  1,  1,  3)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP 17 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.570  .855  .614  .478  .361  .257  .171  .101  .048  .020
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 17 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         9123.32        152.055        2.53425        .105594        .289100E-03
+    STRESS PERIOD TIME         39077.4        651.289        10.8548        .452284        .123829E-02
+ TOTAL SIMULATION TIME         39077.4        651.289        10.8548        .452284        .123829E-02
+1
+     2 ITERATIONS FOR TIME STEP  18 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.3774E-01 (  1,  1,  1)  -.7649E-08 (  1,  1,  3)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP 18 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.607  .892  .651  .516  .397  .291  .203  .128  .069  .034
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 18 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         11860.3        197.672        3.29453        .137272        .375831E-03
+    STRESS PERIOD TIME         50937.7        848.961        14.1494        .589556        .161412E-02
+ TOTAL SIMULATION TIME         50937.7        848.961        14.1494        .589556        .161412E-02
+1
+     2 ITERATIONS FOR TIME STEP  19 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.3941E-01 (  1,  1,  1)  -.4684E-08 (  1,  1,  2)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 0     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP 19 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.647  .932  .691  .555  .436  .329  .239  .160  .096  .056
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 19 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         15418.4        256.973        4.28289        .178454        .488580E-03
+    STRESS PERIOD TIME         66356.1        1105.93        18.4322        .768010        .210270E-02
+ TOTAL SIMULATION TIME         66356.1        1105.93        18.4322        .768010        .210270E-02
+1
+     2 ITERATIONS FOR TIME STEP  20 IN STRESS PERIOD  1
+0MAXIMUM HEAD CHANGE FOR EACH ITERATION:
+0 HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL HEAD CHANGE LAYER,ROW,COL
+ ------------------------------------------------------------------------------------------------------------------------------------
+   -.4304E-01 (  1,  1,  1)  -.5333E-08 (  1,  1,  8)
+0
+0HEAD/DRAWDOWN PRINTOUT FLAG = 1     TOTAL BUDGET PRINTOUT FLAG = 1     CELL-BY-CELL FLOW TERM FLAG = 0
+ REUSING PREVIOUS VALUES OF IOFLG
+1                  DRAWDOWN IN LAYER  1 AT END OF TIME STEP 20 IN STRESS PERIOD  1
+           -----------------------------------------------------------------------
+
+         1     2     3     4     5     6     7     8     9    10
+ ....................................................................
+0  1  1.690  .975  .733  .597  .478  .370  .279  .198  .131  .087
+0
+
+
+                              VOLUMETRIC BUDGET FOR ENTIRE MODEL AT END OF TIME STEP 20 IN STRESS PERIOD  1
+                              -----------------------------------------------------------------------------
+0                   CUMULATIVE VOLUMES      L**3                                     RATES FOR THIS TIME STEP      L**3/T
+                    ------------------                                               ------------------------
+
+                          IN:                                                                    IN:
+                          ---                                                                    ---
+                            STORAGE =    9.5999                                                    STORAGE =    .11111E-03
+                      CONSTANT HEAD =    .00000                                              CONSTANT HEAD =    .00000    
+                              WELLS =    .00000                                                      WELLS =    .00000    
+0                          TOTAL IN =    9.5999                                                   TOTAL IN =    .11111E-03
+0                        OUT:                                                                   OUT:
+                         ----                                                                   ----
+                            STORAGE =    .00000                                                    STORAGE =    .00000    
+                      CONSTANT HEAD =    .00000                                              CONSTANT HEAD =    .00000    
+                              WELLS =    9.5999                                                      WELLS =    .11111E-03
+0                         TOTAL OUT =    9.5999                                                  TOTAL OUT =    .11111E-03
+0                          IN - OUT =   -.95367E-06                                               IN - OUT =    .14552E-10
+0               PERCENT DISCREPANCY =                 .00                              PERCENT DISCREPANCY =                 .00
+
+
+
+0
+
+
+          TIME SUMMARY AT END OF TIME STEP 20 IN STRESS PERIOD  1
+                               SECONDS        MINUTES         HOURS          DAYS           YEARS
+                           ---------------------------------------------------------------------------
+      TIME STEP LENGTH         20043.9        334.065        5.56776        .231990        .635154E-03
+    STRESS PERIOD TIME         86400.0        1440.00        24.0000        1.00000        .273785E-02
+ TOTAL SIMULATION TIME         86400.0        1440.00        24.0000        1.00000        .273785E-02
+1

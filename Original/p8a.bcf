@@ -1,0 +1,9 @@
+         0         0                                                            iss,ibcfcb
+ 0                                                                              laycon
+         0  .100E+01                                                            trpy(locat,cnstnt)
+        11  .100E+01(7G11.4)                    12                              delr(locat,cnstnt,fmtin,iprn)
+  2500.      5000.      5000.      2500.                                        delr array
+        11  .100E+01(7G11.4)                    12                              delc(locat,cnstnt,fmtin,iprn)
+  2500.      5000.      5000.      2500.                                        delc array
+         0  .250E-03                                                            sf1(locat,cnstnt)
+         0  .240E+04                                                            trans(locat,cnstnt)

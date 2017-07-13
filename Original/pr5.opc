@@ -1,0 +1,11 @@
+        -4         0         0         0                                        ihedfm,iddnfm,ihedun,iddnun
+         0         1         1         1                                        incode,ihddfl,ibudfl,icbcfl(step 1)
+         1         0         0         0                                        hdpr,ddpr,hdsv,ddsv
+         0         1         1         0                                        incode,ihddfl,ibudfl,icbcfl(step 2)
+         1         0         0         0                                        hdpr,ddpr,hdsv,ddsv
+         0         1         1         0                                        incode,ihddfl,ibudfl,icbcfl(step 3)
+         1         0         0         0                                        hdpr,ddpr,hdsv,ddsv
+         0         1         1         0                                        incode,ihddfl,ibudfl,icbcfl(step 4)
+         1         0         0         0                                        hdpr,ddpr,hdsv,ddsv
+         0         1         1         0                                        incode,ihddfl,ibudfl,icbcfl(step 5)
+         1         0         0         0                                        hdpr,ddpr,hdsv,ddsv
