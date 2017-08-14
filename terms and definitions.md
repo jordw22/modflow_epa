@@ -176,23 +176,24 @@
 - **Head loss** (_See also_ Head): 
 - **Head pressure** (_See also_ Head): 
 - **Head-specified** (_See also_ Well):
-- **Headwater** (_See also_ Stream):
+- **Headwater** (_See also_ Stream): The source(s) and upper part of a stream, including the upper drainage basin; a stream from this source (Gary).
 - **Head-dependent boundary** (_See also_ Boundary conditions):
 - **High-capacity** (_See also_ Well):
-- **Horizontal** (_See also_ Conductance):
+- **Horizontal** (_See also_ Conductance): In geodesy, said of a direction that is tangent to the geoid at a given point (Gary).
 - **Horizontal flow** (_See also_ Confining bed):
 - **Hydraulic boundary** (_See also_ Boundary conditions): These are limits to the aquifer, because they prevent a cone of depression
   expanding beyond them. They do this either becasue they constitute an impermeable barrier or becuase they provide a source of
   effectively unlnimited recharge (Price).
-- **Hydraulic conductivity (permeability)**:
+- **Hydraulic conductivity (permeability)**: The rate of flow of water in gallons per day through a cross section of one square foot under a unit hydraulic gradient, 
+  at the prevailing temperature or adjusted for a temperature of 60 degrees F (Gary).
 	- [permeability](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
 
 ## I
 -----------------------------------------------
 
-- **Impermeable** (_See also_ Boundary conditions):
+- **Impermeable** (_See also_ Boundary conditions): The condition of a rock, sediment, or soil that renders it incapable of transmitting fluids under pressure (Gary).
 - **Inactive nodes** (_See also_ Nodes):
-- **Influent** (_See also_ Stream):
+- **Influent** (_See also_ Stream): Flowing in. A surface stream that flows into a lake, or a stream or branch that flows into a larger stream. A stream that flows into a cave (Gary).
 - **Initial conditions**:
 - **Intermediate (sub-level) flow system**:
 - **Iteration**:
@@ -206,16 +207,16 @@
 ## L
 -----------------------------------------------
 
-- **Layer**:
+- **Layer**: One of a series of concentric zones or belts of the Earth, delineated by seismic discontinuities (Gary).
 	- [confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
 	  [discretization](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#d), 
 	  [storage](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [thickness](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t), 
 	  [unconfined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u), 
 	  [vertical hydraulic conductivity](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#v)
-- **Leakage**:
-- **Leaky beds**:
-- **Loss** (_See also_ Head):
+- **Leaky aquifer**: A confined aquifer whose confining beds will conduct significant quantities of water into or out of the aquifer (Gary).
+- **Leaky beds**: A confining bed through which water can move into or out of the adjacent aquifer (Gary).
+- **Loss** (_See also_ Head): 
 
 ## M
 -----------------------------------------------
@@ -244,21 +245,26 @@
 	  [inactive](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#i), 	 
  	  [no-flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n), 
 	  [non-uniform](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n)
-- **No-flow** (_See also_ Boundary conditions, Nodes):
-- **Non-uniform** (_See also_ Anisotropy, Nodes):
+- **No-flow** (_See also_ Boundary conditions, Nodes, Well): A well that yields water at the land surface only by means of a pump or other lifting device (Gary).
+- **Non-uniform flow** (_See also_ Anisotropy, Nodes): In hydraulics, a type of steady fllow in an open channel in which velocity varies at different points along the channel (Gary).
 
 ## O
 -----------------------------------------------
 
-- **Observation well** (_See also_ Well):
+- **Observation well** (_See also_ Well): A special well drilled in a selected location for the purpose of observing parameters such as fluid levels and pressure changes, 
+  such as within an oil reservoir as production proceeds (Gary).
 - **Output Control (OC) Package** (_See also_ MODFLOW):
 
 ## P
 -----------------------------------------------
 
-- **Parameter** (_See also_ Base model):
+- **Parameter** (_See also_ Base model): Any arbitrary numberical constant derived from a population or a probablility distribution and charaterizing by each of its particular
+  values some particular member of a system; a quantity related to one or more variable in such a way that it remains constant for any specified set of values fo the variable or variables. 
+  An independent variable through functions of which other functions may be expressed. Any measurable characteristic of a sample or population; any of a set of physical properties whose 
+  values determine the characteristics or behavior of a system (Gary).
 - **Particle Tracking (PT):
-- **Permeability** (_See also_ Hydraulic conductivity (permeability)):
+- **Permeability** (_See also_ Hydraulic conductivity (permeability)): The rate of flow of water in gallons per day through a cross section of one square foot under a unit hydraulic gradient, 
+  at the prevailing temperature or adjusted for a temperature of 60 degrees F (Gary).
 - **Potentiometric surface**: 
 - **Pseudo-steady state** (_See also_ Steady-state conditions):
 - **Pumping rate** (_See also_ Well):
@@ -366,6 +372,7 @@
 	  [multi-node](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#m), 
 	  [nested](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n), 
 	  [node](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n), 
+	  [no flow](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n)
 	  [observation](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#o), 
 	  [pumping](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p), 
 	  [step drawdown test](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s)
