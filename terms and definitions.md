@@ -34,31 +34,31 @@
 ## A
 -----------------------------------------------
 
-- **Anisotropy**: A medium whose physical properties vary in different directions.
+- **Anisotropy**: A medium whose physical properties vary in different directions (Gary).
 	- [non-uniform](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#n)
 - **Aquifer**: A body of rock that contains sufficient saturated permeable material to conduct ground water
-  and to yield economically significant quantities of ground water to wells and springs.
+  and to yield economically significant quantities of ground water to wells and springs (Gary).
 	- [confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
 	  [semi-confined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [unconfined](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#u)
 - **Aquifer discharge**: This is when water leaves an aquifer; this water usually finds its way into river systems naturally (Price).
 - **Aquitard**: A _confining_ bed that retards but does not prevent the flow of water to or from an adjacent aquifer; 
   a _leaky confining_ bed. It dones not readily yield water to wells or springs, but may serve as a storage unit
-  for ground water.
+  for ground water (Gary).
 
 ## B
 -----------------------------------------------
 
 - **Barrier** (_See also_ Groundwater): A natural or artificial obstacle, such as a dike or fault gouge, to the lateral movement of ground water,
-  not in the sense of a confining bed. It is characterized by a marked difference in the level of the ground water on opposite sides.
+  not in the sense of a confining bed. It is characterized by a marked difference in the level of the ground water on opposite sides (Gary).
 - **Base model**: 
 	- [parameters](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#p)
 - **Baseflow**: Water which sustains the river throughout dry weather; can be provided by groundwater discharge from an aquifer, from surface-water storage, 
   or from the melting of glacier ice or snow (Price).
 - **Bed** (_See also_ Stream): The ground upon which any body of water rests, or the land covered by the
-  waters of a stream, lake, or ocean.
+  waters of a stream, lake, or ocean (Gary).
 - **Best fit model**: 
-- **Boundary conditions**: Something that serves to indicate or fix the limit of extent of anything.
+- **Boundary conditions**: Something that serves to indicate or fix the limit of extent of anything (Gary).
 	- [constant head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
 	  [general head boundary (GHB)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#g), 
 	  [head-dependent boundary (HDB)](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#h),
@@ -105,7 +105,7 @@
 - **Density dependent flow** (_See also_ Variable density flow):
 - **Diffusion**: Occurs because a solute tends to move away from regions of greater concentration toweards regions of lower
   concentration (Price).
-- **Discharge**: The rate of flow at a given moment in time, expresssed as volume per unit of time
+- **Discharge**: The rate of flow at a given moment in time, expresssed as volume per unit of time (Gary).
 	- [aquifer](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#a), 
 	  [constant head](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#c), 
 	  [drain](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#d), 
@@ -114,7 +114,7 @@
 	  [storage](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [well](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#w)
 - **Discharge area**: An area in which subsurface water is discharged to the land surface, to bodies or surface water,
-  or to the atmosphere.
+  or to the atmosphere (Gary).
 - **Discretization** (_See also_ Layer):
 	- [spacial horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
 	  [spacial vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
@@ -122,7 +122,7 @@
 - **Distorted layer**:
 - **Drain** (_See also_ Discharge): A small, narrow, natural watercourse. A channel, conduit, or water way, either natural or artificial, 
   for draining or carrying off excess water from an area, such as a surface ditch designed to lower the water table so that land may be farmed; 
-  a sewer or trench.
+  a sewer or trench (Gary).
 - **Drain (DRN) Package** (_See also_ MODFLOW code):
 - **Drawdown**: Is the total head loss (the distance between the pumping water level and the static or rest water level) (Price).
 
@@ -130,7 +130,7 @@
 -----------------------------------------------
 
 - **Effluent** (_See also_ Stream):
-- **Evapotranspiration** (_See also_ Discharge): Is the evaporation of water from openings in the leaves and stems in a process called transpiration.
+- **Evapotranspiration** (_See also_ Discharge): Is the evaporation of water from openings in the leaves and stems in a process called transpiration (Gary).
 - **Evapotranspiration (ET) Package** (_See also_ MODFLOW code):
 - **Execution time**:
 
@@ -328,7 +328,7 @@
 - **Target**:
 - **Tensor**:
 - **Theis solution**: Predicts drawdown in a confined aquifer at any distance from a well at any time since 
-  the start of pumping given the aquifer properties, transmissivity and storage coefficient.
+  the start of pumping given the aquifer properties, transmissivity and storage coefficient (Gary).
 - **Thickness** (_See also_ Layer):
 - **Time step**:
 - **Time step multiplier**:
