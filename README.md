@@ -47,7 +47,7 @@ Notebooks
 
 [MODFLOW PDF File](https://github.com/jordw22/modflow_epa/tree/master/Doc)
 
-[Helpful Terms and Definitions](https://github.com/jordw22/modflow_epa/blob/master/Notebooks/Terms.ipynb)
+[Helpful Terms and Definitions](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md)
 
 Installation
 -----------------------------------------------
