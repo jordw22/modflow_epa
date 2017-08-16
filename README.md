@@ -1,5 +1,3 @@
-
-
 # modflow_epa
 
 ### **Table of Contents**
@@ -39,6 +37,14 @@ that I have taken straight from the **EPA Manual of Instructional Problems for t
 the original document is located under the [Doc] folder, and under the Notebooks tab, labeled "MODFLOW PDF File".
 
 This manual is developed for the U.S. Geological Survey modular groundwater model (MODFLOW).
+
+Most problems deal with drawdown of water into wells, here's a few example images:
+
+## Image of pumped well drawing water out of an unconfined aquifer
+<img src="https://pubs.usgs.gov/circ/2002/circ1224/images/fig1.gif" style="width:50;height:20">
+
+## Image of drawdown versus time (lots of these graphs in the problems)
+<img src="http://www.kgs.ku.edu/Hydro/Publications/1998/OFR98_15A/gifs/fig16.png" style="width:50;height:20">
 
 Notebooks
 -----------------------------------------------
