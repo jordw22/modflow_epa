@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/modflowpy/flopy/master/examples/images/flopy3.png" alt="flopy3" style="width:50;height:20">
+
 # modflow_epa
 
 ### **Table of Contents**
