@@ -66,7 +66,7 @@ Installation
 	* follow the instructions on the website and download Anaconda according to which operating system you have
 	  (Windows, OS X, Linus)
 
-<img src="https://www.continuum.io/sites/all/themes/continuum/assets/images/logos/logo-horizontal-large.svg" alt="anaconda" style="width:20;height:5">
+<img src="https://www.continuum.io/sites/all/themes/continuum/assets/images/logos/logo-horizontal-large.svg" alt="anaconda" style="width:10;height:5">
 
 4. Create folders to hold documents/code
 	* make sure the folders have a good structure and have a clean/simple path (you can copy my folder formatting exactly or as a reference for your own)
