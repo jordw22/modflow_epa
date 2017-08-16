@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/modflowpy/flopy/master/examples/images/flopy3.png" alt="flopy3" style="width:50;height:20">
+
 
 # modflow_epa
 
@@ -66,7 +66,7 @@ Installation
 	* follow the instructions on the website and download Anaconda according to which operating system you have
 	  (Windows, OS X, Linus)
 
-<img src="https://www.continuum.io/sites/all/themes/continuum/assets/images/logos/logo-horizontal-large.svg" alt="anaconda" style="width:10;height:5">
+<img src="https://www.continuum.io/sites/all/themes/continuum/assets/images/logos/logo-horizontal-large.svg" alt="anaconda" style="width:50;height:20">
 
 4. Create folders to hold documents/code
 	* make sure the folders have a good structure and have a clean/simple path (you can copy my folder formatting exactly or as a reference for your own)
@@ -75,13 +75,22 @@ Installation
 	*Use the pip install -> simply copy and paste the code into Anaconda (your terminal) and run it 
 	*Flopy creates a file, then Modlflow reads those files and makes more, and then Flopy reads all the files produced by
 	 Modflow and produces the results
-	*Flopy is 
+	*Flopy is a python package for creating, running, and post-processing MODFLOW-based models.
+
+<img src="https://raw.githubusercontent.com/modflowpy/flopy/master/examples/images/flopy3.png" alt="flopy3" style="width:50;height:20">
+
 3. Download Modflow from USGS: (https://water.usgs.gov/ogw/modflow/MODFLOW.html#downloads)
+
+<img src="http://novametrixgm.com/graphics/vmod_banner.jpg" alt="flopy3" style="width:50;height:20">
+
 3. Opening a notebook
 	* open Anaconda
 	* in Anaconda type: jupyter notebook
 	* will take you to the website
 3. _Optional_: Create a profile online with jupyter notebook and then select [New repository] to create your own
+
+<img src="https://raw.githubusercontent.com/jupyter/nature-demo/master/images/jupyter-logo.png" alt="flopy3" style="width:50;height:20">
+
 
 ### **How to run my modflow_epa notebooks:**
 
