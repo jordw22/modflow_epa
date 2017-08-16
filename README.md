@@ -46,6 +46,9 @@ Most problems deal with drawdown of water into wells, here's a few example image
 ## Image of drawdown versus time (lots of these graphs in the problems)
 <img src="http://www.kgs.ku.edu/Hydro/Publications/1998/OFR98_15A/gifs/fig16.png" style="width:50;height:20">
 
+### Drawdown from wells with contour lines
+<img src="https://www.researchgate.net/profile/Rashad_Sawires/publication/257785493/figure/fig4/AS:392591590871041@1470612537124/Fig-4-Potentiometric-head-contour-map-of-the-Nubian-sandstone-aquifer-of-El-Bahariya.ppm" style="width:50;height:20">
+
 Notebooks
 -----------------------------------------------
 
