@@ -96,6 +96,9 @@ Installation
 
 1. In top right corner click the green [Clone or download] button
 2. Select [Download ZIP]
+
+<img src="http://eosc350.geosci.xyz/en/latest/_images/gpgLabsDownload.png" alt="flopy3" style="width:50;height:20">
+
 3. Create a folder for these files and place the ZIP file in it
 4. Unzip the files
 3. Place the modflow executable [mf2005.exe] into a seperate folder before unziping it. **It must be in a folder on the same level as notebook or it will not run!**
