@@ -134,4 +134,4 @@ MODFLOW Resources
 * [Online guide for MODFLOW-2005](http://water.usgs.gov/ogw/modflow/MODFLOW-2005-Guide/)
 * [Online guide for MODFLOW-NWT](http://water.usgs.gov/ogw/modflow-nwt/MODFLOW-NWT-Guide/)
 
-[Back to Top](https://github.com/jordw22/modflow_epa#modflow_epa)
+[Back to Top](https://github.com/jordw22/modflow_epa)
