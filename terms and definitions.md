@@ -122,9 +122,7 @@
 - **Discharge area**: An area in which subsurface water is discharged to the land surface, to bodies or surface water,
   or to the atmosphere (Gary).
 - **Discretization** (_See also_ Layer): Is used to specify certain data used in all models; used to specify the positions of the boundaries between layers in a layer group("Online").
-	- [spacial horizontal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
-	  [spacial vertical](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#s), 
-	  [temporal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t)
+	- [temporal](https://github.com/jordw22/modflow_epa/blob/master/terms%20and%20definitions.md#t)
 - **Drain** (_See also_ Discharge): A small, narrow, natural watercourse. A channel, conduit, or water way, either natural or artificial, 
   for draining or carrying off excess water from an area, such as a surface ditch designed to lower the water table so that land may be farmed; 
   a sewer or trench (Gary).
