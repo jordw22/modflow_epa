@@ -22,7 +22,7 @@
 Progress Report
 -----------------------------------------------
 
-## Completed Notebook Problems
+### **Completed Notebook Problems**
 
 * Problem 1
 * Problem 3
@@ -30,7 +30,7 @@ Progress Report
 * Problem 9
 * Problem 14
 
-## Incomplete Notebook Problems
+### **Incomplete Notebook Problems**
 
 * Problem 10
 * Problem 19
