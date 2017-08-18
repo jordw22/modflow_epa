@@ -19,6 +19,22 @@
 [MODFLOW Resources](https://github.com/jordw22/modflow_epa#modflow-resources)
 
 
+Progress Report
+-----------------------------------------------
+
+## Completed Notebook Problems
+
+* Problem 1
+* Problem 3
+* Problem 8
+* Problem 9
+* Problem 14
+
+## Incomplete Notebook Problems
+
+* Problem 10
+* Problem 19
+
 Introduction
 -----------------------------------------------
 
